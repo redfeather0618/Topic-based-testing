@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 419,
+      "end": 453,
+      "quote": "…金融消費者保護法第5 條、24 條第 2 項\n第 6 款定有明文。",
+      "role": "unresolved_later_citation",
+      "r_codes": [
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 745,
+      "end": 799,
+      "quote": "是以，本件評議申請核有首揭金融消費者保護法第24條第\n2 項第6款「當事人不適格」之情事，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 801,
+      "end": 873,
+      "quote": "四、據上論結，本件申請評議事件屬金融消費者保護法第24 條第 2 項第 6\n款之情形，爰依金融消費者保護法第24 條第 2 項規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-5347"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-160bfb6f96e3fcb36051fca321b6a274ad32d9ea9767b122c1a2e3ce319c4586",
+  "pdf_sha256": "160bfb6f96e3fcb36051fca321b6a274ad32d9ea9767b122c1a2e3ce319c4586",
+  "page_count": 3,
+  "analysis_case_number": "114-5347",
+  "analysis_case_numbers": [
+    "114-5347"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

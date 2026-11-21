@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 202,
+      "end": 519,
+      "quote": "一、 按 「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不\n受理，並以書面通知金融消費者及金融服務業。但其情形可以補正者，爭\n議處理機構應通知金融消費者於合理期限內補正：……六、當事人不適\n格。……」金融消費者保護法第24條第2 項第6 款定有明文。至於所謂\n當事人適格，則指就特定法律關係，得以當事人之地位實施評議之「資\n格」 。判斷當事人是否適格，應就該具體之評議案件，依當事人與特定之\n法律關係定之。又「本法所稱要保人，指對保險標的具有保險利益，向保\n險人申請訂立保險契約，並負有交付保險費義務之人。」 、 「本法所稱被保\n險人，指於保險事故發生時，遭受損害，享有賠償請求權之人」保險法第\n3、4條亦分別定有明文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 33,
+      "end": 86,
+      "quote": "四、 據上論結，本件申請評議事件因當事人不適格，爰依金融消費者保護法第\n24 條第2 項規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-2240"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-b31bfcf82985abdd1bcc2fe671e8810454c6d4f3ae131dd2a499b43437662897",
+  "pdf_sha256": "b31bfcf82985abdd1bcc2fe671e8810454c6d4f3ae131dd2a499b43437662897",
+  "page_count": 2,
+  "analysis_case_number": "114-2240",
+  "analysis_case_numbers": [
+    "114-2240"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 193,
+      "end": 394,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。但其情形可以補\n正者，爭議處理機構應通知金融消費者於合理期限內補正：一、申請\n不合程式。」，金融消費者保護法（下稱金保法）第 24 條第 2 項第 1\n款定有明文。準此，向本中心申請評議之案件如有申請不合程式之情\n事，經本中心通知補正，申請人未於合理期限內補正，本中心應為不\n受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 311,
+      "end": 460,
+      "quote": "本中心又於114 年8 月21日致電申請人，欲與其確認請求標\n的為何，惟未蒙申請人接聽，此有本中心電話紀錄在卷可參，是依現\n有卷證資料，實難認申請人之請求標的屬明確一定、具體合法及適於\n強制執行，揆諸前揭規定，本件評議申請核有金保法第24 條第2項第\n1 款「申請不合程式」之情，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-3315"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-6c77c179c9cb85078d8c9ef18eb4eaab768ea5d2fabe1a3926491f452bdc1a36",
+  "pdf_sha256": "6c77c179c9cb85078d8c9ef18eb4eaab768ea5d2fabe1a3926491f452bdc1a36",
+  "page_count": 2,
+  "analysis_case_number": "114-3315",
+  "analysis_case_numbers": [
+    "114-3315"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

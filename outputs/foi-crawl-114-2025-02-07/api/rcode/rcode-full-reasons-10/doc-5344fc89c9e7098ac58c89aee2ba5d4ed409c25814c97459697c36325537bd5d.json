@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 125,
+      "end": 380,
+      "quote": "一、 按「金融消費者申請評議， 應填具申請書 ，載明當事人名稱及基本資料 、\n請求標的、事實、理由、相關文件或資料及申訴未獲妥適處理之情形。\n金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不\n受理，並以書面通知金融消費者及金融服務業。但其情形可以補正者，\n爭議處理機構應通知金融消費者於合理期限內補正：一、申請不合程\n式。…」金融消費者保護法第24條定有明文。準此，向本中心申請評議\n之案件如有申請不合程式之情形者，經本中心通知補正，申請人未於合\n理期限內補正，本中心應即為不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 376,
+      "end": 751,
+      "quote": "故本中心嗣於114年3月17日\n以○○○字第○○○560號書函通知申請人於文到後 10個工作日內補\n正具體請求標的，並提出與本件爭議相關之證據資料，雖申請人提出補\n正資料（本中心分別於114年3月6日、13日、20日、25日收文） ，然細繹\n申請人補正資料及卷附申請人歷次所提資料，申請人主張略以 「…希望\nA○○今後114年4月1日能依此法令辦理理賠給付!還請A○○人壽保險\n有限公司能尊重自己的保險條款及金管會、保險局及衛服部提出的 『住\n院醫療費用保險單示範條款』 ，而對於本人之前急診治療超過6小時的\n案件；本人決定放棄申訴申請理賠金!」等語，請求標的非具體明確，\n是本中心實難認申請人之請求標的屬明確一定、具體合法及適於強制\n執行，揆諸前揭規定，申請人本件評議申請有金融消費者保護法第24條\n第2項第1款申請不合程式之情事，依法應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1125"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-5344fc89c9e7098ac58c89aee2ba5d4ed409c25814c97459697c36325537bd5d",
+  "pdf_sha256": "5344fc89c9e7098ac58c89aee2ba5d4ed409c25814c97459697c36325537bd5d",
+  "page_count": 3,
+  "analysis_case_number": "114-1125",
+  "analysis_case_numbers": [
+    "114-1125"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

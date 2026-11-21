@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 126,
+      "end": 393,
+      "quote": "一、 按「金融消費者申請評議， 應填具申請書 ，載明當事人名稱及基本資料 、\n請求標的、事實、理由、相關文件或資料及申訴未獲妥適處理之情形。\n金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不\n受理，並以書面通知金融消費者及金融服務業。但其情形可以補正者，\n爭議處理機構應通知金融消費者於合理期限內補正：一、申請不合程\n式。…」 金融消費者保護法第24條第1項及第2項第1款定有明文。準此，\n向本中心申請評議之案件如有申請不合程式之情形者，經本中心通知\n補正，申請人未於合理期限內補正，本中心應即為不受理之決定，合先\n敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 391,
+      "end": 664,
+      "quote": "故本中\n心嗣於114年6月12日以○○○字第○○○490號書函，請申請人於文到\n後十個工作日內補正具體請求標的及相關佐證資料，該函文已於114年\n6月13日送達申請人，此有中華郵政國內掛號查詢單附卷可稽，惟逾期\n申請人仍未補正，本中心復於114年7月18日致電申請人聯繫補正具體\n請求標的，然未獲接聽，此有電話紀錄在卷可稽，因本件迄今仍未收受\n申請人補正具體請求標的，是本中心實難認申請人之請求標的屬明確\n一定、具體合法及適於強制執行，揆諸前揭規定，申請人本件評議申請\n有金融消費者保護法第24條第2項第1款申請不合程式之情事，依法應\n不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-2677"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-b8b6fe00f1926fbaa76a359af1ec38fe143ea92de03993dccdf11d1916ac6a99",
+  "pdf_sha256": "b8b6fe00f1926fbaa76a359af1ec38fe143ea92de03993dccdf11d1916ac6a99",
+  "page_count": 3,
+  "analysis_case_number": "114-2677",
+  "analysis_case_numbers": [
+    "114-2677"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

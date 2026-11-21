@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 197,
+      "end": 463,
+      "quote": "一、 按「金融消費者申請評議，應填具申請書，載明當事人名稱及基本資料、\n請求標的、事實、理由、相關文件或資料及申訴未獲妥適處理之情形。金\n融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不受理，\n並以書面通知金融消費者及金融服務業。但其情形可以補正者，爭議處理\n機構應通知金融消費者於合理期限內補正：一、申請不合程式。…」 ，金\n融消費者保護法第24條第1項及第2 項第1 款定有明文。準此，向本中\n心申請評議之案件如有申請不合程式之情形者，經本中心通知補正，申請\n人未於合理期限內補正，本中心應即為不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 434,
+      "end": 743,
+      "quote": "故請求標的並未具體明確，本中心於 114 年 8 月 12\n日以○○○字第○○○710 號書函通知申請人於文到後 10 個工作日內補\n正具體請求標的，並提出與本件爭議相關之證據資料，該函文已於114 年\n8 月 13 日送達申請人，此有中華郵政國內掛號查詢單附卷可稽，申請人\n逾期仍未補正，本中心遂於 114 年 9 月 16 日以電話聯繫通知申請人補\n正，惟申請人表示將於完成治療後再一併提出，本次不再補正資料，稽諸\n卷附申請人所提資料，實難認本件之請求已具體、明確、特定及適於強制\n執行，其提起本件評議申請不合程式，故本件評議申請核有金融消費者保\n護法第24條第2 項第1 款申請不合程式之情事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-3660"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-cfe18d6d7932a186ddaec740fa6cd30a12d89ce44a901f7c277278c09d48e4c2",
+  "pdf_sha256": "cfe18d6d7932a186ddaec740fa6cd30a12d89ce44a901f7c277278c09d48e4c2",
+  "page_count": 2,
+  "analysis_case_number": "114-3660",
+  "analysis_case_numbers": [
+    "114-3660"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

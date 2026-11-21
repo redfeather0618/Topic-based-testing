@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-21T08:07:35.319205+00:00",
+  "metadata": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\metadata\\foi_ods_life_roc114_inadmissible_decisions_0207_0207.json",
+  "source_update_notice": "資料更新日期：民國115年10月9日",
+  "source_coverage_and_use_notice": "本查詢系統目前提供之資料開放範圍，包含101年至115年第2季間評議委員會所作成(或覆核) 之評議（不受理）決定書，未來並將定期更新資料開放範圍提供查詢。 為符合個人資料保護規範，本系統提供查詢之資料，均已將個人資料遮隱。 本資料僅供參考，如與評議(不受理)決定書原本不符，以評議(不受理)決定書原本為準。 本查詢系統所提供之評議決定書或不受理決定書皆為評議中心版權所有，且受中華民國著作權法令及國際著作權公約的保障。查詢結果僅供研究或參考之用，不得另作其他商業用途。 除非事先經過本中心以正式書面授權同意，否則禁止對本查詢系統所提供之資料以任何形式轉載、傳輸、傳播、散布、展示、出版、再製或利用評議中心內容的局部、全部的內容及其他方式對外公佈其內容或為其他足以侵害本中心權益之行為。 如對本系統有任何使用上的問題或功能建議，歡迎使用「聯絡我們」線上來信。",
+  "query": {
+    "roc_year": 114,
+    "date_format": "ROC_SPLIT_FIELDS",
+    "date_range": {
+      "date_from": {
+        "roc_year": 114,
+        "month": 2,
+        "day": 7
+      },
+      "date_to": {
+        "roc_year": 114,
+        "month": 2,
+        "day": 7
+      }
+    },
+    "decision_categories": [
+      {
+        "value": "100",
+        "label": "不受理決定書"
+      }
+    ],
+    "decision_result": {
+      "value": "0",
+      "label": "全部"
+    },
+    "industry": {
+      "value": "I01",
+      "label": "保險業"
+    },
+    "industry_subcategory": {
+      "parent_value": "I01",
+      "parent_label": "保險業",
+      "value": "001",
+      "label": "人壽保險"
+    }
+  },
+  "record_counts_by_category": {
+    "不受理決定書": 10
+  },
+  "validation": {
+    "validated_at": "2026-11-21T08:07:29.988064+00:00",
+    "raw_record_count": 10,
+    "unique_record_count": 10,
+    "duplicate_record_count": 0,
+    "expected_records_from_leaf_batches": 10,
+    "metadata_errors": [],
+    "pdf_errors": [],
+    "complete": true,
+    "sample_documents": [
+      {
+        "record_id": "1131109407",
+        "case_number": "113年評字第005317號",
+        "decision_category": {
+          "value": "100",
+          "label": "不受理決定書"
+        },
+        "source_pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109407",
+        "local_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\要保人或受益人變更\\113年評字第005317號--1131109407.pdf",
+        "pdf_magic_valid": true,
+        "bytes": 110411,
+        "sha256": "4e605dfcc63d8311cf2da39f93116402ab4b9ed7ce316839e10ec25134ddd75b"
+      },
+      {
+        "record_id": "1131109814",
+        "case_number": "113年評字第005532號",
+        "decision_category": {
+          "value": "100",
+          "label": "不受理決定書"
+        },
+        "source_pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109814",
+        "local_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\條款解釋爭議\\113年評字第005532號--1131109814.pdf",
+        "pdf_magic_valid": true,
+        "bytes": 119039,
+        "sha256": "df1d34627be25bae41b9e0617e60788397a7de0eef10677f8db8d0288c64d2c9"
+      },
+      {
+        "record_id": "1140001101",
+        "case_number": "114年評字第000382號",
+        "decision_category": {
+          "value": "100",
+          "label": "不受理決定書"
+        },
+        "source_pdf_url": "https://ods.foi.org.tw/download.aspx?article=1140001101",
+        "local_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\失能等級認定\\114年評字第000382號--1140001101.pdf",
+        "pdf_magic_valid": true,
+        "bytes": 86557,
+        "sha256": "1acc823fb040ce962244a89b3f73263d145e02712e49f1cd5c55c732177cfd9a"
+      }
+    ],
+    "scope_status": "complete_for_currently_published_source_range"
+  },
+  "pdf_collection": {
+    "record_count": 10,
+    "success_count": 10,
+    "failure_count": 0,
+    "failures": [],
+    "completed_at": "2026-11-21T08:07:35.309255+00:00"
+  }
+}

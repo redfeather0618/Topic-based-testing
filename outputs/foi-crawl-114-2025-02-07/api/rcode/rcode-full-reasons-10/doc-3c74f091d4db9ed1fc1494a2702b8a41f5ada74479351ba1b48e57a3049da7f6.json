@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R08"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 197,
+      "end": 628,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。但其情形可以補\n正者，爭議處理機構應通知金融消費者於合理期限內補正：…。八、\n申請評議事件已經法院判決確定，或已成立調處、評議、和解、調解\n或仲裁。」金融消費者保護法第24條第2 項第8款定有明文。次按，\n稱和解者，謂當事人約定，互相讓步，以終止爭執或防止爭執發生之\n契約，民法第736條定有明文。又和解契約合法成立，兩造當事人即\n均應受該契約之拘束，縱使一造因而受不利益之結果，亦不得事後翻\n異，更就和解前之法律關係再行主張。復按和解有使當事人所拋棄之\n權利消滅及使當事人取得和解契約所訂明權利之效力，民法第737條\n定有明文。換言之，和解成立以後，其發生之法律上效力，在消極方\n面，使當事人所拋棄之權利消滅，在積極方面，則使當事人取得和解\n契約所訂明之權利（最高法院99年度台上字第1525號、87 年度台上\n字第312號民事判決同此意旨） 。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 763,
+      "end": 849,
+      "quote": "準此，申請人本次\n申請評議所涉事實既經兩造成立和解，是揆諸首揭規定及前開判決意\n旨，本件核屬金融消費者保護法第 24 條第 2 項第 8 款之情形，其評\n議申請應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 851,
+      "end": 938,
+      "quote": "四、 據上論結，本件評議因申請評議事件已成立和解，核屬金融消費者保\n護法第 24 條第 2 項第 8 款，應不予受理，爰依金融消費者保護法第\n24 條第2 項規定決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-3228"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-3c74f091d4db9ed1fc1494a2702b8a41f5ada74479351ba1b48e57a3049da7f6",
+  "pdf_sha256": "3c74f091d4db9ed1fc1494a2702b8a41f5ada74479351ba1b48e57a3049da7f6",
+  "page_count": 3,
+  "analysis_case_number": "114-3228",
+  "analysis_case_numbers": [
+    "114-3228"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

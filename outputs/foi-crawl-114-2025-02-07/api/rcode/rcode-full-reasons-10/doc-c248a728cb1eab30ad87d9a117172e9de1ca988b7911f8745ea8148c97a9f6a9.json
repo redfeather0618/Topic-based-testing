@@ -1,0 +1,69 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 195,
+      "end": 466,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、 「金融消費者申請評議有下列各款情形之一者，\n爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。\n但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內\n補正：…二、非屬金融消費爭議。…」金融消費者保護法(下稱金保法)\n第5 條及第24 條第2 項第2款分別定有明文。準此，若爭議案件非為\n金融消費者與金融服務業間因商品或服務所生之民事爭議，而有非屬\n金融消費爭議之情形者，因其情形無法補正，本中心應即為不受理之決\n定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 638,
+      "end": 805,
+      "quote": "三、 經查，細繹申請人提出之事實及資料，並審酌申請人請求之內容，其所\n爭執者不外係向相對人所投保之保單號碼第○○○935 號○○○變額\n萬能壽險，因辦理投資標的轉換作業時重新進行風險承受等級評估，經\n申請人於相對人 APP 進行前揭評估，其評估結果屬穩健型，申請人主\n張進行該風險承受等級評估時，因相對人 APP 設計顯示不清楚，介面",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 354,
+      "quote": "難以操作，導致其處於情緒憤怒之狀態所為，請求重做該風險評估，惟\n其APP 設計顯示與介面操作等事項，乃事涉相對人如何設計規劃其APP\n顯示畫面、流程操作方式及風險評估等級之分數調配，實屬相對人依相\n關法規所辦理之內部事項，且依投資型保險商品銷售自律規範第11條\n之1 第1項規定： 「各會員於招攬本商品時，應對要保人之風險承受等\n級進行評估（對要保人辦理風險承受等級，距前次評估結果未滿一年\n者，不得重新評估）…」 ，因而，重新進行風險承受等級之時間亦係依\n前揭自律規範所為，是申請人爭執之事項，核其性質與前揭規定所稱之\n金融消費者與金融服務業間因金融商品或服務所生之民事爭議有間 ，\n揆諸前揭法條規定及說明，係屬金保法第24 條第 2 項第 2 款之情形，\n其評議申請應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 357,
+      "end": 409,
+      "quote": "四、 綜上所述，本件申請核有金保法第24條第2 項第2 款「非屬金融消費\n爭議」之情，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4291"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-c248a728cb1eab30ad87d9a117172e9de1ca988b7911f8745ea8148c97a9f6a9",
+  "pdf_sha256": "c248a728cb1eab30ad87d9a117172e9de1ca988b7911f8745ea8148c97a9f6a9",
+  "page_count": 2,
+  "analysis_case_number": "114-4291",
+  "analysis_case_numbers": [
+    "114-4291"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

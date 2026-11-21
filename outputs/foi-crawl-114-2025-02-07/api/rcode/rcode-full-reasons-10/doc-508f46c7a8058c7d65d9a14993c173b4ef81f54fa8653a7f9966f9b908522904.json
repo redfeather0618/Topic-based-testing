@@ -1,0 +1,67 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01",
+    "R02",
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 190,
+      "end": 625,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：一、申請不合\n程式。二、非屬金融消費爭議。…九、其他主管機關規定之情形。」，\n金融消費者保護法（下稱金保法）第24條第2項第1款、第2 款、第\n9 款定有明文。次按金融消費爭議處理機構評議委員資格條件聘任解任\n及評議程序辦法（下稱評議程序辦法）第15條第1 項第9 款規定「金\n融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不受\n理，並以書面通知金融消費者及金融服務業。但其情形可以補正者，爭\n議處理機構應通知金融消費者於合理期限內補正：…九、申請評議事件\n純屬債務協商、投資表現、信用評等或定價政策之範圍者。…」。準此，\n向本中心申請評議之案件如純屬投資表現、非屬金融消費爭議者，或有\n申請不合程式之情事，經本中心通知補正，申請人未於合理期限內補\n正，本中心應為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01",
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 966,
+      "end": 1027,
+      "quote": "揆諸前揭規定，本件評議申請核有金保法第24條第\n2 項第1款、第2 款、第9 款「申請不合程式」、 「非屬金融消費爭議」、",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01",
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 13,
+      "end": 36,
+      "quote": "「其他主管機關規定之情形」，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01",
+        "R02",
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4523"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-508f46c7a8058c7d65d9a14993c173b4ef81f54fa8653a7f9966f9b908522904",
+  "pdf_sha256": "508f46c7a8058c7d65d9a14993c173b4ef81f54fa8653a7f9966f9b908522904",
+  "page_count": 3,
+  "analysis_case_number": "114-4523",
+  "analysis_case_numbers": [
+    "114-4523"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

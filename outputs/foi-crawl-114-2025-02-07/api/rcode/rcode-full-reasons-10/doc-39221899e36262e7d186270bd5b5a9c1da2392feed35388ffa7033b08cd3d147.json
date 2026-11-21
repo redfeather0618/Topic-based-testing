@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 190,
+      "end": 455,
+      "quote": "一、 按金融消費者保護法第5條及第24條第2項第6款明定「本法所稱金\n融消費爭議，指金融消費者與金融服務業間因商品或服務所生之民事\n爭議。」 、 「金融消費者申請評議有下列各款情形之一者，爭議處理機\n構應決定不受理，並以書面通知金融消費者及金融服務業。…六、當\n事人不適格。」又所謂當事人適格，係指就特定法律關係，得以當事\n人之地位實施評議之「資格」 。判斷當事人是否適格，應就該具體之評\n議案件，依當事人與特定之法律關係定之。準此，如向本中心申請評\n議之案件有當事人不適格之情事者，因其情形無從補正，本中心應即\n為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 412,
+      "end": 450,
+      "quote": "職故 ， 依金融消費者保護法第24條第2項第6款之規定，\n本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 452,
+      "end": 506,
+      "quote": "四、 據上論結，本件評議申請核有當事人不適格之情，依金融消費者保護\n法第24條第2項第6款規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-280"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-39221899e36262e7d186270bd5b5a9c1da2392feed35388ffa7033b08cd3d147",
+  "pdf_sha256": "39221899e36262e7d186270bd5b5a9c1da2392feed35388ffa7033b08cd3d147",
+  "page_count": 2,
+  "analysis_case_number": "114-280",
+  "analysis_case_numbers": [
+    "114-280"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

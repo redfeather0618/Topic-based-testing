@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 195,
+      "end": 463,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構\n應決 定不受理，並以書面通知金融消費者及金融服務業。…二、\n非屬金融消費爭議。…」金融消費者保護法（以下簡稱金保法）\n第 24 條第 2 項第 2 款及金融消費爭議處理機構評議委員資格條\n件聘任解任及評議程序辦法第15 條第 1 項第 2 款定有明文。又\n金保法第 5 條規定:「本法所稱金融消費爭議，指金融消費者與\n金融服務業間因商品或服務所生之民事爭議。」故向本中心申請\n評議之案件為非屬金融消費爭議或申請人主張請求之 對象非屬\n金融服務業，本中心應即為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 69,
+      "end": 126,
+      "quote": "準此，本件評\n議申請核有金融消費者保護法第24條第2項第2款所定 「非屬金融\n消費爭議」之情事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-448"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-29dd998e4a8a3f306ba2d837041c5ca3a93e3b58c2635559d47b554969ff0f6f",
+  "pdf_sha256": "29dd998e4a8a3f306ba2d837041c5ca3a93e3b58c2635559d47b554969ff0f6f",
+  "page_count": 2,
+  "analysis_case_number": "114-448",
+  "analysis_case_numbers": [
+    "114-448"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

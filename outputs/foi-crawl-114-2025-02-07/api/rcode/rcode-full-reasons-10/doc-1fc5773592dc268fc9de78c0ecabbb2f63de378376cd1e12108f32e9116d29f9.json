@@ -1,0 +1,52 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02",
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 198,
+      "end": 492,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」、「金融消費者申請評議有下列各款情形之一者，\n爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務\n業。…二、非屬金融消費爭議。…六、當事人不適格。…」 ，金融消費\n者保護法第 5 條、第 24 條第 2 項第 2、6 款分別定有明文。故申請人\n向本中心申請評議之案件，如有當事人不適格情形或非屬金融消費爭\n議者，本中心應即為不受理之決定。又所謂當事人適格，係指就特定法\n律關係，得以當事人之地位實施評議之 「資格」，判斷當事人是否適格，\n應就該具體之評議案件，依當事人與特定之法律關係定之。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 770,
+      "end": 839,
+      "quote": "職故，本件評議申請核有金融消\n費者保護法第24條第2 項第2 款、第6 款「非屬金融消費爭議」、「當\n事人不適格」之情，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4481"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-1fc5773592dc268fc9de78c0ecabbb2f63de378376cd1e12108f32e9116d29f9",
+  "pdf_sha256": "1fc5773592dc268fc9de78c0ecabbb2f63de378376cd1e12108f32e9116d29f9",
+  "page_count": 3,
+  "analysis_case_number": "114-4481",
+  "analysis_case_numbers": [
+    "114-4481"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

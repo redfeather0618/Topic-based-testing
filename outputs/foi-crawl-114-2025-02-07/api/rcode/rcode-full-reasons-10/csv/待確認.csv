@@ -1,0 +1,24 @@
+﻿"document_id
+統一案件編號","original_case_no
+原始案號","document_type
+文件類型","dispute_category
+原始爭議類型","case_count
+Case 數量","case_id
+Case 編號","case_content
+Case／請求內容簡述","case_result
+Case 程序結果","R01
+申請不合程式","R02
+非屬金融消費爭議","R03
+未先申訴","R04
+申訴處理未逾 30 日","R05
+逾法定期限","R06
+當事人不適格","R07
+曾申請評議而不成立","R08
+已有確定／成立程序","R09
+其他規定情形","final_r_codes
+最終 R Code","additional_legal_citations
+其他法律引用","review_note
+標註備註",標註狀態,標註者,檢核狀態,檢核者
+114-5120,114 年評字第5120號,不受理決定書,未到期保費之返還,,,,,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,,,"文件層機器草稿，非正式Case列；Case拆分、請求摘要、Case結果及其他法律引用未確認；機器分類狀態=needs_review；分類版本=rcode-full-reasons-10；PDF SHA-256=0f565d31d8ad746450baf9afcc52f17318639398966c86dd004a756ce1961b4c；API文件ID=doc-0f565d31d8ad746450baf9afcc52f17318639398966c86dd004a756ce1961b4c；待確認碼=R02, R06；原因=BODY_FINAL_CLAUSE_CONFLICT, NO_CONFIRMED_CODE",未完成,,未完成,
+114-4475,114 年評字第4475號,不受理決定書,未遵循服務規範,,,,,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,,,"文件層機器草稿，非正式Case列；Case拆分、請求摘要、Case結果及其他法律引用未確認；機器分類狀態=needs_review；分類版本=rcode-full-reasons-10；PDF SHA-256=117d3634d7b32f0fb3b93cbb91062d665f2f1c110d9c6662b5561a4ac9e87647；API文件ID=doc-117d3634d7b32f0fb3b93cbb91062d665f2f1c110d9c6662b5561a4ac9e87647；待確認碼=R01, R02；原因=BODY_FINAL_CLAUSE_CONFLICT, NO_CONFIRMED_CODE",未完成,,未完成,
+114-4371,114 年評字第4371 號,不受理決定書,手術認定,,,,,YES,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,R01,,文件層機器草稿，非正式Case列；Case拆分、請求摘要、Case結果及其他法律引用未確認；機器分類狀態=needs_review；分類版本=rcode-full-reasons-10；PDF SHA-256=8fcf3efa176ab4fef5bb866ce95a12ff8eee3ec0b297a6860f005a4383fd0298；API文件ID=doc-8fcf3efa176ab4fef5bb866ce95a12ff8eee3ec0b297a6860f005a4383fd0298；待確認碼=R02；原因=FIRST_LATER_SCOPE_UNCLEAR,未完成,,未完成,

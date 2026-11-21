@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R08"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 184,
+      "end": 344,
+      "quote": "一、 按 「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：…八、申請評\n議事件已經法院判決確定，或已成立調處、評議、和解、調解或仲裁。…」，\n此為金融消費者保護法第24條第2 項第8 款所明定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 670,
+      "end": 784,
+      "quote": "是\n以，本件爭議業經法院判決確定在案，今申請人再就上開爭議申請評\n議，核屬金融消費者保護法第24條第2 項第8款規定之情形，揆諸首\n揭規定，本中心應不予受理 \n四、 據上論結，本件評議申請不受理，依金融消費者保護法第24條第2項",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 22,
+      "quote": "規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-5084"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-1ccc534ccafeb08e1127941ce85a39b610f2695f7a1f339291c0ab741e8e54ba",
+  "pdf_sha256": "1ccc534ccafeb08e1127941ce85a39b610f2695f7a1f339291c0ab741e8e54ba",
+  "page_count": 2,
+  "analysis_case_number": "114-5084",
+  "analysis_case_numbers": [
+    "114-5084"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

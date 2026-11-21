@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 211,
+      "end": 533,
+      "quote": "一、 按 「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：……九、其他\n主管機關規定之情形。」金融消費者保護法第24條第2項第9款定有\n明文。次按「金融消費者申請評議有下列各款情形之一者，爭議處理機\n構應決定不受理，並以書面通知金融消費者及金融服務業。但其情形可\n以補正者，爭議處理機構應通知金融消費者於合理期限內補正：… …\n九、申請評議事件純屬債務協商、投資表現、信用評等或定價政策之範\n圍者。……。」金融消費爭議處理機構評議委員資格條件聘任解任及評\n議程序辦法（下稱評議程序辦法）第15條第 1項第9款定有明文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R09"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 376,
+      "end": 493,
+      "quote": "惟查，\n經本中心細繹申請人之主張，無非係就系爭保單宣告利率之變動所為\n之爭執，屬金融服務業費率釐定政策所生爭議，核屬前開定價政策範\n疇，依首揭金融消費者保護法第24條第2項第9款及評議程序辦法第\n15條第1項第9款之規定，應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1328"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-4aeb939205ca9742b6d7a5a66821fbed4f954ce1fac32c6fde19056b88fa924e",
+  "pdf_sha256": "4aeb939205ca9742b6d7a5a66821fbed4f954ce1fac32c6fde19056b88fa924e",
+  "page_count": 2,
+  "analysis_case_number": "114-1328",
+  "analysis_case_numbers": [
+    "114-1328"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

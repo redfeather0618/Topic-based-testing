@@ -1,0 +1,52 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R06",
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 213,
+      "end": 678,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：…六、當事人\n不適格。…九、其他主管機關規定之情形。…。」金融消費者保護法第\n24 條第 2 項第 6 款及第 9 款分別定有明文。準此，若向本中心申請評\n議有當事人不適格之情形者，本中心應即為不受理之決定。又所謂當事\n人適格，係指就特定法律關係，得以當事人之地位實施評議之 「資格」 。\n判斷當事人是否適格，應就該具體之評議案件，依當事人與特定之法律\n關係定之。又按「金融消費者申請評議有下列各款情形之一者，爭議處\n理機構應決定不受理，並以書面通知金融消費者及金融服務業。但其情\n形可以補正者，爭議處理機構應通知金融消費者於合理期限內補正：…\n九、申請評議事件純屬債務協商、投資表現、信用評等或定價政策之範\n圍者。」 金融消費爭議處理機構評議委員資格條件聘任解任及評議程序\n辦法 （下稱評議程序辦法） 第15 條第1項第9 款定有明文，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R06",
+        "R09"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 862,
+      "end": 933,
+      "quote": "七、 綜上所述，本件評議申請因有當事人不適格，且涉定價政策範疇，核為\n金融消費者保護法第24條第2項第6款、第9 款所定之情形，應不予\n受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06",
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-2805"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-e364a2d4e672ac7763edfcf9b123e063baf8fa50819466d6e4b06e09a6c86f60",
+  "pdf_sha256": "e364a2d4e672ac7763edfcf9b123e063baf8fa50819466d6e4b06e09a6c86f60",
+  "page_count": 4,
+  "analysis_case_number": "114-2805",
+  "analysis_case_numbers": [
+    "114-2805"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

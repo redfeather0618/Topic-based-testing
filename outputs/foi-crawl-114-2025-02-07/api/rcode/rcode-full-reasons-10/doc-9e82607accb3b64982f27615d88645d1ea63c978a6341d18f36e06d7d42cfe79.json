@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 201,
+      "end": 525,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。但其情形可以補\n正者，爭議處理機構應通知金融消費者於合理期限內補正：…九、其\n他主管機關規定之情形。…。」金融消費者保護法第24 條第2 項第9\n款定有明文。次按「金融消費者申請評議有下列各款情形之一者，爭\n議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。\n但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內\n補正：九、申請評議事件純屬債務協商、投資表現、信用評等或定價\n政策之範圍者。」金融消費爭議處理機構評議委員資格條件聘任解任\n及評議程序辦法（下稱評議程序辦法）第 15 條第 1 項第 9 款定有明\n文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R09"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 338,
+      "end": 395,
+      "quote": "四、 綜上所述，本件評議申請因屬定價政策範疇，核為金融消費者保護法\n第24條第2項第 9款所定之情形，應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-2923"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-9e82607accb3b64982f27615d88645d1ea63c978a6341d18f36e06d7d42cfe79",
+  "pdf_sha256": "9e82607accb3b64982f27615d88645d1ea63c978a6341d18f36e06d7d42cfe79",
+  "page_count": 2,
+  "analysis_case_number": "114-2923",
+  "analysis_case_numbers": [
+    "114-2923"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

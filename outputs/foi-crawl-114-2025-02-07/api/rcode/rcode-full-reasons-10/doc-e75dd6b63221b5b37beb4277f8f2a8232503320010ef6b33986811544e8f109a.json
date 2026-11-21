@@ -1,0 +1,63 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02",
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 192,
+      "end": 496,
+      "quote": "一、 按「本法所訂金融服務業，包括銀行業、證券業、期貨業、保險業、電\n子票證業及其他經主管機關公告之金融服務業。」 、 「本法所稱金融消費\n爭議，指金融消費者與金融服務業間因商品或服務所生之民事爭議。」 、\n「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：…二、非屬金\n融消費爭議。…六、當事人不適格。…」 ，金融消費者保護法第3條第\n1 項、第 5 條及第 24 條第 2 項第 2 款及第6 款分別定有明文。準此，\n倘申請評議之案件有上揭不受理之情形，本中心即應為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 722,
+      "end": 895,
+      "quote": "經查，甲○○、乙\n○○及丁○○並非銀行業、證券業、期貨業、保險業、電子票證業及其\n他經主管機關公告之金融服務業，故非屬金融消費者保護法第 3 條第\n1 項所稱之金融服務業，上述人員均核無為評議事件相對人之適格，申\n請人請求上述人員負責賠償或道歉亦非屬金融消費爭議，依前開金融\n消費者保護法第3條第1 項、第5 條、第24條第2項第2 款及第6 款",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 25,
+      "quote": "規定，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4168"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-e75dd6b63221b5b37beb4277f8f2a8232503320010ef6b33986811544e8f109a",
+  "pdf_sha256": "e75dd6b63221b5b37beb4277f8f2a8232503320010ef6b33986811544e8f109a",
+  "page_count": 2,
+  "analysis_case_number": "114-4168",
+  "analysis_case_numbers": [
+    "114-4168"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

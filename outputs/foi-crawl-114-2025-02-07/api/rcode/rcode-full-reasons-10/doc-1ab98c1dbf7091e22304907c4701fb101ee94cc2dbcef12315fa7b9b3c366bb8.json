@@ -1,0 +1,61 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R03",
+    "R08"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 201,
+      "end": 539,
+      "quote": "一、 按「金融消費者就金融消費爭議事件應先向金融服務業提出申訴，金融\n服務業應於收受申訴之日起三十日內為適當之處理，並將處理結果回\n覆提出申訴之金融消費者；金融消費者不接受處理結果者或金融服務\n業逾上述期限不為處理者，金融消費者得於收受處理結果或期限屆滿\n之日起六十日內，向爭議處理機構申請評議…。」、「金融消費者申請\n評議有下列各款情形之一者，爭議處理機構應決定不受理，並以書面通\n知金融消費者及金融服務業。但其情形可以補正者，爭議處理機構應通\n知金融消費者於合理期限內補正 ：…三 、未先向金融服務業申訴。…八、\n申請評議事件已經法院判決確定，或已成立調處、評議、和解、調解或\n仲裁。」 ，分別為金融消費者保護法第13條第 2項、第24條第 2項第\n3款、第8款定有明文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R03",
+        "R08"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 532,
+      "end": 591,
+      "quote": "從而，本件申請評議事件因業已成立和解，\n核屬金融消費者保護法第 24 條第 2 項第 8 款所定之情形，應不予受\n理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 593,
+      "end": 761,
+      "quote": "五、 又查，依本中心現有卷附資料，查無申請人就其請求「108年意外傷害\n理賠金」部分，有向相對人提出申訴之證明文件，另經本中心於114年\n2 月 18 日與相對人聯繫，相對人亦稱申請人就此部分未踐行申訴先行\n程序，職是，本件申請人提起本件評議申請時，核有金保法第24條第\n2項第 3款「未先向金融服務業申訴」之情事，本中心亦應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-664"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-1ab98c1dbf7091e22304907c4701fb101ee94cc2dbcef12315fa7b9b3c366bb8",
+  "pdf_sha256": "1ab98c1dbf7091e22304907c4701fb101ee94cc2dbcef12315fa7b9b3c366bb8",
+  "page_count": 3,
+  "analysis_case_number": "114-664",
+  "analysis_case_numbers": [
+    "114-664"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

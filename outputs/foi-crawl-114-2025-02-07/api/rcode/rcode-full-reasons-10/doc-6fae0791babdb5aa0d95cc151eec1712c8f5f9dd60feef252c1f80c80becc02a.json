@@ -1,0 +1,75 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02",
+    "R03",
+    "R07"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 220,
+      "end": 730,
+      "quote": "一、 按 「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、 「金融消費者申請評議有下列各款情形之一者，\n爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。\n但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內\n補正：…二、非屬金融消費爭議。三、未先向金融服務業申訴。…七、\n曾依本法申請評議而不成立。」金融消費者保護法第5條及第 24條第\n2 項第2款、第3 款及第7 款分別定有明文。又依金融消費者保護法第\n24 條第2 項第7 款之立法理由為： 「…四、本法之評議為選擇性之紛爭\n解決手段，為避免金融消費者就同一事件已經起訴、聲請調解、申請調\n處、提付仲裁或申請評議，或已和解、經調解成立、調處成立、仲裁成\n立、評議成立或法院判決確定者，造成爭議處理機構之資源浪費及結果\n歧異，爰分別於第二項第七款至第八款規定，有上述情形者，不得再依\n本法申請評議。第七款指同一金融消費爭議事件曾依本法申請評議經\n撤回或不成立者…」 。準此，向本中心申請評議之案件內容如非屬金融\n消費爭議、未先向金融服務業申訴、曾經申請評議而不成立者，本中心\n應即為不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02",
+        "R03",
+        "R07"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 1062,
+      "end": 1077,
+      "quote": "嗣申請人於前案評議決定作成後再",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 13,
+      "end": 310,
+      "quote": "次對相對人提出申訴，由卷附申訴紀錄、相對人114 年1 月10日申訴\n回函、申請人之代理人與相對人人員間電子郵件等資料互核可知，申請\n人本次申訴內容或為不滿相對人未盡高齡友善原則、或為相對人未就\n申請人於 113 年 6 月或 7 月間提供予相對人之理賠申請文件於前案中\n予以說明回覆、抑或為相對人未將神經科調閱之病歷報告及身心障礙\n手冊於前案提供予本中心審核等節，是有關申請人請求保單號碼第○\n○○250 號、第○○○060 暨○○○390 號保險契約之保險金給付或恢\n復契約效力之爭議，尚難認已包含於本次之申訴範圍，申請人此部分之\n請求標的核有未先向金融服務業申訴之情事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 715,
+      "end": 779,
+      "quote": "準此，本件評議申請核有\n金融消費者保護法第 24 條第 2 項第 2 款、第 3 款及第 7 款所定之情\n事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02",
+        "R03",
+        "R07"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1268"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-6fae0791babdb5aa0d95cc151eec1712c8f5f9dd60feef252c1f80c80becc02a",
+  "pdf_sha256": "6fae0791babdb5aa0d95cc151eec1712c8f5f9dd60feef252c1f80c80becc02a",
+  "page_count": 4,
+  "analysis_case_number": "114-1268",
+  "analysis_case_numbers": [
+    "114-1268"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

@@ -1,0 +1,764 @@
+{
+  "schema_version": "1.0",
+  "parser_version": "foi_ods_life_dual_category_v3",
+  "queries": {
+    "100|2025-02-07|2025-02-07|0": {
+      "records": [
+        {
+          "record_id": "1130021689",
+          "case_number": "113年評字第005332號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00117",
+            "label": "違反告知義務"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1130021689",
+            "download_article": "1130021689"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\違反告知義務\\113年評字第005332號--1130021689.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1130022005",
+          "case_number": "113年評字第005442號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00117",
+            "label": "違反告知義務"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1130022005",
+            "download_article": "1130022005"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\違反告知義務\\113年評字第005442號--1130022005.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1130022926",
+          "case_number": "114年評字第000006號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00134",
+            "label": "遲延給付"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1130022926",
+            "download_article": "1130022926"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\遲延給付\\114年評字第000006號--1130022926.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1131109407",
+          "case_number": "113年評字第005317號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00078",
+            "label": "要保人或受益人變更"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109407",
+            "download_article": "1131109407"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\要保人或受益人變更\\113年評字第005317號--1131109407.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1131109787",
+          "case_number": "113年評字第005511號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00016",
+            "label": "必要性醫療"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109787",
+            "download_article": "1131109787"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\必要性醫療\\113年評字第005511號--1131109787.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1131109801",
+          "case_number": "113年評字第005515號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00050",
+            "label": "拒保或加費承保爭議"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109801",
+            "download_article": "1131109801"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\拒保或加費承保爭議\\113年評字第005515號--1131109801.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1131109814",
+          "case_number": "113年評字第005532號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00093",
+            "label": "條款解釋爭議"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1131109814",
+            "download_article": "1131109814"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\條款解釋爭議\\113年評字第005532號--1131109814.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1140000342",
+          "case_number": "114年評字第000142號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00029",
+            "label": "年金/滿期金給付"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1140000342",
+            "download_article": "1140000342"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\年金_滿期金給付\\114年評字第000142號--1140000342.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1140001012",
+          "case_number": "114年評字第000282號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00106",
+            "label": "費率爭議"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1140001012",
+            "download_article": "1140001012"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\費率爭議\\114年評字第000282號--1140001012.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        },
+        {
+          "record_id": "1140001101",
+          "case_number": "114年評字第000382號",
+          "decision_category": {
+            "value": "100",
+            "label": "不受理決定書"
+          },
+          "decision_result": {
+            "value": "0",
+            "label": "全部"
+          },
+          "decision_date": "114.02.07",
+          "industry": {
+            "value": "I01",
+            "label": "保險業"
+          },
+          "industry_subcategory": {
+            "parent_value": "I01",
+            "parent_label": "保險業",
+            "value": "001",
+            "label": "人壽保險"
+          },
+          "dispute_type": {
+            "value": "00102",
+            "label": "失能等級認定"
+          },
+          "source": {
+            "result_url": "https://ods.foi.org.tw/",
+            "pdf_url": "https://ods.foi.org.tw/download.aspx?article=1140001101",
+            "download_article": "1140001101"
+          },
+          "result_row": {
+            "row_index": null,
+            "keyword_context": null
+          },
+          "crawl_batch": {
+            "batch_key": "100|2025-02-07|2025-02-07|0",
+            "roc_year": 114,
+            "date_format": "ROC_SPLIT_FIELDS",
+            "date_from": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_to": {
+              "roc_year": 114,
+              "month": 2,
+              "day": 7
+            },
+            "date_from_label": "114/2/7",
+            "date_to_label": "114/2/7",
+            "decision_category_filter": {
+              "value": "100",
+              "label": "不受理決定書"
+            },
+            "dispute_type_filter": {
+              "value": null,
+              "label": null
+            },
+            "split_reason": "month_query"
+          },
+          "local_files": {
+            "pdf_path": null,
+            "planned_pdf_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\pdfs\\roc114\\不受理決定書\\失能等級認定\\114年評字第000382號--1140001101.pdf"
+          },
+          "crawl": {
+            "crawled_at": "2026-11-21T08:07:29.983288+00:00",
+            "status": "metadata_ok",
+            "error": null,
+            "parser_version": "foi_ods_life_dual_category_v3"
+          }
+        }
+      ],
+      "batch": {
+        "batch_key": "100|2025-02-07|2025-02-07|0",
+        "roc_year": 114,
+        "date_format": "ROC_SPLIT_FIELDS",
+        "date_from": {
+          "roc_year": 114,
+          "month": 2,
+          "day": 7
+        },
+        "date_to": {
+          "roc_year": 114,
+          "month": 2,
+          "day": 7
+        },
+        "date_from_label": "114/2/7",
+        "date_to_label": "114/2/7",
+        "decision_category_filter": {
+          "value": "100",
+          "label": "不受理決定書"
+        },
+        "dispute_type_filter": {
+          "value": null,
+          "label": null
+        },
+        "split_reason": "month_query",
+        "status": "ok",
+        "message": null,
+        "visible_limit": 100,
+        "result_count_reported": 10,
+        "page_count_reported": 1,
+        "records_created": 10,
+        "from_checkpoint": false
+      }
+    }
+  },
+  "updated_at": "2026-11-21T08:07:29.985689+00:00"
+}

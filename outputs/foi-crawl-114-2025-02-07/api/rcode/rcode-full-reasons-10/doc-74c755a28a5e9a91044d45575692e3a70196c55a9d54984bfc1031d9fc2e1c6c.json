@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 184,
+      "end": 459,
+      "quote": "一、 按 「金融消費者申請評議， 應填具申請書 ，載明當事人名稱及基本資料 、\n請求標的 、 事實 、 理由 、 相關文件或資料及申訴未獲妥適處理之情形 。」、\n「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：一、申請不合\n程式。…」金融消費者保護法第24條第1 項、第2 項第1 款分別定有\n明文。準此，向本中心申請評議之案件如有申請不合程式之情事，經本\n中心通知補正，申請人未於合理期限內補正，本中心應為不受理之決\n定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 93,
+      "end": 155,
+      "quote": "因申請人迄今仍未補正，職故，本件申請核有金融消費者\n保護法第24條第2項第1 款「申請不合程式」之情事，本中心應予不\n受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4240"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-74c755a28a5e9a91044d45575692e3a70196c55a9d54984bfc1031d9fc2e1c6c",
+  "pdf_sha256": "74c755a28a5e9a91044d45575692e3a70196c55a9d54984bfc1031d9fc2e1c6c",
+  "page_count": 2,
+  "analysis_case_number": "114-4240",
+  "analysis_case_numbers": [
+    "114-4240"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

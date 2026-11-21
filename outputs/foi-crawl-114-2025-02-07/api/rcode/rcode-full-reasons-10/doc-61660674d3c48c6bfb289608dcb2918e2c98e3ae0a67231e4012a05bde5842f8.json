@@ -1,0 +1,69 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R03"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 219,
+      "end": 559,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」「金融消費者就金融消費爭議事件應先向金融服\n務業提出申訴，金融服務業應於收受申訴之日起三十日內為適當之處\n理，並將處理結果回覆提出申訴之金融消費者；金融消費者不接受處理\n結果者或金融服務業逾上述期限不為處理者，金融消費者得於收受處\n理結果或期限屆滿之日起六十日內，向爭議處理機構申請評議…。」 、\n「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：…三、未先向\n金融服務業申訴。…」 ，分別為金融消費者保護法第5條、第13條第2\n項、第24條第2 項第3 款所明定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 768,
+      "end": 801,
+      "quote": "三、 經查，遍觀評議申請書所附之全卷資料中，均未見申請人已向相對人",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 11,
+      "end": 371,
+      "quote": "申訴之相關資料，經本中心於114 年4 月1 日發函通知申請人於書函\n送達次日起 10 個工作日內補正本件評議申請已向金融服務業申訴之\n佐證資料、具體請求標的及相關佐證資料等，該函文已於114 年4 月\n2 日送達申請人，此有中華郵政國內掛號查詢單附卷可稽，惟因仍未\n獲補正，故本中心於 114 年 4 月 16 日撥打評議申請書中申請人所留\n之手機電話，為代理人所接聽並表示本件爭議事件今年未曾向相對人\n提出申訴且申請人目前已過世，申請人之家人在處理相關事宜等語，\n此有電話紀錄在卷可稽，故依卷附資料，本中心尚難認申請人就本件\n評議申請已踐行金融消費者保護法所定之申訴先行必要程序，職是，\n本件申請人提起本件評議申請時，核有金融消費者保護法第 24 條第\n2 項第3款「未先向金融服務業申訴」之情事，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 373,
+      "end": 435,
+      "quote": "四、 據上論結，本件評議申請有未經申訴先行程序之情事，依前揭金融消費\n者保護法第 24 條第 2 項第3款規定，應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1488"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-61660674d3c48c6bfb289608dcb2918e2c98e3ae0a67231e4012a05bde5842f8",
+  "pdf_sha256": "61660674d3c48c6bfb289608dcb2918e2c98e3ae0a67231e4012a05bde5842f8",
+  "page_count": 2,
+  "analysis_case_number": "114-1488",
+  "analysis_case_numbers": [
+    "114-1488"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

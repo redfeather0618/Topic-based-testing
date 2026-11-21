@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-21T16:51:02.432140+08:00",
+  "metadata_directory": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\metadata",
+  "collections": [
+    {
+      "metadata_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\metadata\\foi_ods_life_roc114_inadmissible_decisions.json",
+      "scope": {
+        "roc_year": 114,
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31",
+        "decision_category_values": [
+          "100"
+        ],
+        "decision_categories": [
+          {
+            "value": "100",
+            "label": "不受理決定書"
+          }
+        ],
+        "industry_value": "I01",
+        "industry_label": "保險業",
+        "subcategory_value": "001",
+        "subcategory_label": "人壽保險"
+      },
+      "record_count": 406,
+      "record_counts_by_category_value": {
+        "100": 406
+      },
+      "valid_pdf_count": 406,
+      "missing_or_invalid_pdf_count": 0,
+      "validation_complete": true,
+      "source_update_notice": "資料更新日期：民國115年10月9日"
+    },
+    {
+      "metadata_path": "C:\\Users\\sandy\\OneDrive\\桌面\\專題專題\\outputs\\foi-crawl-114-2025-02-07\\metadata\\foi_ods_life_roc114_inadmissible_decisions_0207_0207.json",
+      "scope": {
+        "roc_year": 114,
+        "date_from": "2025-02-07",
+        "date_to": "2025-02-07",
+        "decision_category_values": [
+          "100"
+        ],
+        "decision_categories": [
+          {
+            "value": "100",
+            "label": "不受理決定書"
+          }
+        ],
+        "industry_value": "I01",
+        "industry_label": "保險業",
+        "subcategory_value": "001",
+        "subcategory_label": "人壽保險"
+      },
+      "record_count": 10,
+      "record_counts_by_category_value": {
+        "100": 10
+      },
+      "valid_pdf_count": 10,
+      "missing_or_invalid_pdf_count": 0,
+      "validation_complete": true,
+      "source_update_notice": "資料更新日期：民國115年10月9日"
+    }
+  ]
+}

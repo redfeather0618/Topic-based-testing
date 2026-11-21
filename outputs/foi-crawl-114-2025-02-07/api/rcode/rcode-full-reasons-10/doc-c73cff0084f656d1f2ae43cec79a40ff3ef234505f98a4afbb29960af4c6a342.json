@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R03"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 186,
+      "end": 485,
+      "quote": "一、 按「金融消費者就金融消費爭議事件應先向金融服務業提出申訴，金融\n服務業應於收受申訴之日起三十日內為適當之處理，並將處理結果回\n覆提出申訴之金融消費者；金融消費者不接受處理結果者或金融服務\n業逾上述期限不為處理者，金融消費者得於收受處理結果或期限屆滿\n之日起六十日內，向爭議處理機構申請評議…。」、「金融消費者申請\n評議有下列各款情形之一者，爭議處理機構應決定不受理，並以書面通\n知金融消費者及金融服務業。但其情形可以補正者，爭議處理機構應通\n知金融消費者於合理期限內補正：…三、未先向金融服務業申訴。…」\n分別為金融消費者保護法（下稱金保法）第13條第2 項、第24條第2\n項第3 款所明定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 745,
+      "end": 807,
+      "quote": "職是，本件申請人提\n起本件評議申請時，核有金保法第24條第2 項第3 款「未先向金融服\n務業申訴」之情事，本中心應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 101,
+      "quote": "四、 綜上所述，本件評議申請因未申訴先行，核屬金融消費者保護法第 24\n條第 2 項第 3 款所定之情形，應不予受理，爰依金融消費者保護法第\n24 條第2 項規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R03"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-3997"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-c73cff0084f656d1f2ae43cec79a40ff3ef234505f98a4afbb29960af4c6a342",
+  "pdf_sha256": "c73cff0084f656d1f2ae43cec79a40ff3ef234505f98a4afbb29960af4c6a342",
+  "page_count": 2,
+  "analysis_case_number": "114-3997",
+  "analysis_case_numbers": [
+    "114-3997"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

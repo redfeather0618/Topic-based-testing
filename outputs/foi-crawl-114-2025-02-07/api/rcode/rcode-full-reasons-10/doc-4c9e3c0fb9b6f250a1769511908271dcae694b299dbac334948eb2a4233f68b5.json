@@ -1,0 +1,69 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R07"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 191,
+      "end": 440,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。但其情形可以補\n正者，爭議處理機構應通知金融消費者於合理期限內補正：…七、曾\n依本法申請評議而不成立。…。」、「當事人應於評議書所載期限內，\n以書面通知爭議處理機構，表明接受或拒絕評議決定之意思。評議經\n當事人雙方接受而成立。」金融消費者保護法第24條第2 項第7款及\n第29條第1項分別定有明文。準此，向本中心申請評議之案件如為曾\n申請評議而不成立之案件，本中心應即為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R07"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 745,
+      "end": 815,
+      "quote": "準此，本件之當事\n人及請求之原因事實均與前案相同，而本件既經前案作成評議決定，\n並因申請人拒絕接受評議決定而不成立，今申請人再就同一案件提出",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R07"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 57,
+      "quote": "本件評議，洵屬金融消費者保護法第24條第2項第7款之範疇，依法\n本中心就此亦應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R07"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 59,
+      "end": 144,
+      "quote": "四、 據上論結，本件評議因曾依本法申請評議而不成立，核屬金融消費者\n保護法第24條第2項第7 款之情形，應不予受理，爰依金融消費者保\n護法第24條第2 項規定決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R07"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4524"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-4c9e3c0fb9b6f250a1769511908271dcae694b299dbac334948eb2a4233f68b5",
+  "pdf_sha256": "4c9e3c0fb9b6f250a1769511908271dcae694b299dbac334948eb2a4233f68b5",
+  "page_count": 2,
+  "analysis_case_number": "114-4524",
+  "analysis_case_numbers": [
+    "114-4524"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

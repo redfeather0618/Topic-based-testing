@@ -1,0 +1,61 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02",
+    "R06"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 203,
+      "end": 617,
+      "quote": "一、 按 「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、 「金融消費者申請評議，應填具申請書，載明當\n事人名稱及基本資料、請求標的、事實、理由、相關文件或資料及申訴\n未獲妥適處理之情形。金融消費者申請評議有下列各款情形之一者，爭\n議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。但\n其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內補\n正：…二、非屬金融消費爭議。…六、當事人不適格。…」金融消費者\n保護法第 5 條、第 24 條第 1 項、第 2 項第 2 款及第 6 款分別定有明\n文。又所謂當事人適格，係指就特定法律關係，得以當事人之地位實施\n評議之「資格」 。判斷當事人是否適格，應就該具體之評議案件，依當\n事人與特定之法律關係定之。據此，向本中心申請評議之事件如非屬金\n融消費爭議、當事人不適格而因其情形無從補正等情事，本中心即應為\n不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 342,
+      "end": 450,
+      "quote": "從而，本中心係\n依金融消費者保護法設立之訴訟外紛爭解決機制，僅處理民事金融消\n費糾紛，是申請人之請求既非屬金融消費者保護法第 5 條因金融商品\n或服務所生之金融消費爭議，依同法第24條第2項第2款規定，應不\n予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 718,
+      "end": 760,
+      "quote": "職故，依金\n融消費者保護法第24 條第 2 項第 6 款之規定，本中心亦應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R06"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-3431"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-66dbecd72752d623c2a331f8ee76e9cd4ea4ba19ad09cd58b2edd52fadf54eed",
+  "pdf_sha256": "66dbecd72752d623c2a331f8ee76e9cd4ea4ba19ad09cd58b2edd52fadf54eed",
+  "page_count": 3,
+  "analysis_case_number": "114-3431",
+  "analysis_case_numbers": [
+    "114-3431"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

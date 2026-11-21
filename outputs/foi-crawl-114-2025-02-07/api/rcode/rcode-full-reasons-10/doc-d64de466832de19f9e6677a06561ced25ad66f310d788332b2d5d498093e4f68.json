@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 186,
+      "end": 420,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品 或\n服務所生之民事爭議。」 、 「金融消費者申請評議有下列各款情形之一\n者，爭議處理機構應決定不受理，並以書面通知金融消費者及金融服\n務業。但其情形可以補正者，爭議處理機構應通知金融消費者於合理\n期限內補正：…二、非屬金融消費爭議。…」金融消費者保護法第 5\n條及第24條第2項第2款定有明文。準此，若向本中心申請評議之事\n件為非屬金融消費爭議，因其情形無從補正，本中心即應為不受理之\n決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 820,
+      "end": 823,
+      "quote": "申請人",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 180,
+      "quote": "所主張者無非就○○○地方法院依據強制執行法之規定核發扣押命令\n之效力範圍及是否得為收取命令為爭執，堪認申請人本件係就民事法\n院強制執行過程及其結果為爭執，核非金融消費者保護法第 5 條規定\n所指之金融消費者與金融服務業間因商品或服務所生之民事爭議，故\n非屬金融消費爭議，依金融消費者保護法第24條第2項第2款規定，\n本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-858"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-d64de466832de19f9e6677a06561ced25ad66f310d788332b2d5d498093e4f68",
+  "pdf_sha256": "d64de466832de19f9e6677a06561ced25ad66f310d788332b2d5d498093e4f68",
+  "page_count": 2,
+  "analysis_case_number": "114-858",
+  "analysis_case_numbers": [
+    "114-858"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

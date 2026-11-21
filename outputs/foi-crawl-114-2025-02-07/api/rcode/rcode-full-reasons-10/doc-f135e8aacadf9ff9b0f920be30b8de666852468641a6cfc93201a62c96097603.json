@@ -1,0 +1,69 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 192,
+      "end": 396,
+      "quote": "一、 按 「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不\n受理，並以書面通知金融消費者及金融服務業。…二、非屬金融消費爭\n議。…」金融消費者保護法第24條第2 項第2款定有明文。又「本法所\n稱金融消費爭議，指金融消費者與金融服務業間因商品或服務所生之民\n事爭議。」金融消費者保護法第5 條亦定有明文。準此，若向本中心申請\n評議之事件為非屬金融消費爭議應予不受理者，本中心應即為不受理之\n決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 781,
+      "end": 848,
+      "quote": "三、 經查，細繹申請人所提出之請求標的、事實及理由與卷內資料，無非係就\n系爭保單之要保書及其上所載信用卡資料之真實性衍生爭議，而文書之",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 140,
+      "quote": "真正及應如何公證或證明其真實性所衍生爭議，實涉刑事偽造文書之犯\n罪偵查，屬司法檢調機關調查之權限，核其性質與前揭規定所稱之金融消\n費者與金融服務業因商品或服務所生之民事爭議有間，依金融消費者保\n護法第24條第 2 項第2 款之規定，本中心依法應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 142,
+      "end": 198,
+      "quote": "四、 綜上所述，本件評議申請核有非屬金融消費爭議之情形，爰依金融消費者\n保護法第24條第 2項規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-5505"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-f135e8aacadf9ff9b0f920be30b8de666852468641a6cfc93201a62c96097603",
+  "pdf_sha256": "f135e8aacadf9ff9b0f920be30b8de666852468641a6cfc93201a62c96097603",
+  "page_count": 2,
+  "analysis_case_number": "114-5505",
+  "analysis_case_numbers": [
+    "114-5505"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

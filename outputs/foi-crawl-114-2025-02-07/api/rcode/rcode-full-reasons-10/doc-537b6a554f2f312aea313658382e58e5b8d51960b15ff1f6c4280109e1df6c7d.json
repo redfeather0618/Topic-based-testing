@@ -1,0 +1,67 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R08"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 200,
+      "end": 296,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。…八、申請評議\n事件已經法院判決確定，或已成立調處、評議、和解、調解或仲裁。」",
+      "role": "first_paragraph",
+      "r_codes": []
+    },
+    {
+      "page": 2,
+      "start": 970,
+      "end": 1028,
+      "quote": "…】前開〈意向書〉雖未載有和解字樣，然和解本無必要以一\n定或書面形式為之，核〈意向書〉之內容即有就系爭附約之意外身故",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 13,
+      "end": 203,
+      "quote": "保險金以 187.5 萬元定紛止爭之意（餘無給付責任、嗣後再無其他給\n付責任），除申請人簽名確認，代理人亦以見證人身分簽名其上，足認\n申請人與相對人間已就系爭附約之身故保險金理賠給付達成和解協\n議，相對人並已履行完成，自不得再由申請人事後恣意翻異，是申請\n人主張相對人應再為給付系爭附約身故保險金等語，核屬金融消費者\n保護法第24條第2項第8款規定之不受理事由，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 376,
+      "end": 464,
+      "quote": "五、 綜上所述，本件評議申請因申請評議事件已成立和解，核屬金融消費\n者保護法第24條第2項第 8款所定之情形，應不予受理，爰依金融消\n費者保護法第24條第2項規定，決定如主文。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R08"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1313"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-537b6a554f2f312aea313658382e58e5b8d51960b15ff1f6c4280109e1df6c7d",
+  "pdf_sha256": "537b6a554f2f312aea313658382e58e5b8d51960b15ff1f6c4280109e1df6c7d",
+  "page_count": 3,
+  "analysis_case_number": "114-1313",
+  "analysis_case_numbers": [
+    "114-1313"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

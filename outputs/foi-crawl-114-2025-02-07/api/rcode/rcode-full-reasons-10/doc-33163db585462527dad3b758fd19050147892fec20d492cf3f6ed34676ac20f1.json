@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R05"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 222,
+      "end": 650,
+      "quote": "一、 按「金融消費者就金融消費爭議事件應先向金融服務業提出申訴，金  \n融服務業應於收受申訴之日起三十日內為適當之處理，並將處理結果  \n回覆提出申訴之金融消費者；金融消費者不接受處理結果者或金融服  \n務業逾上述期限不為處理，金融消費者得於收受處理結果或期限屆滿  \n之日起六十日內，向爭議處理機構申請評議；金融消費者向爭議處理機 \n構提出申訴者，爭議處理機構之金融消費者服務部門應將該申訴移交  \n金融服務業處理。」 、 「金融消費者申請評議，應填具申請書，載明當事 \n人名稱及基本資料、請求標的、事實、理由、相關文件或資料及申訴未 \n獲妥適處理之情形。金融消費者申請評議有下列各款情形之一者，爭議 \n處理機構應決定不受理，並以書面通知金融消費者及金融服務業。但其 \n情形可以補正者，爭議處理機構應通知金融消費者於合理期限內補  \n正：…五、申請已逾法定期限。…。 」 ，金融消費者保護法第13條第 \n2 項、第24條第1項及第2項第5款分別定有明文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R05"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 169,
+      "end": 287,
+      "quote": "惟本中心於 113 年 12\n月 31 日始收受申請人提出之評議申請，已逾前揭 60 日期限，是本件\n實未符合金融消費者保護法第 13 條第 2 項之規定，而有同法第 24 條\n第2項第5款「申請已逾法定期限」之情形，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R05"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-63"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-33163db585462527dad3b758fd19050147892fec20d492cf3f6ed34676ac20f1",
+  "pdf_sha256": "33163db585462527dad3b758fd19050147892fec20d492cf3f6ed34676ac20f1",
+  "page_count": 2,
+  "analysis_case_number": "114-63",
+  "analysis_case_numbers": [
+    "114-63"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

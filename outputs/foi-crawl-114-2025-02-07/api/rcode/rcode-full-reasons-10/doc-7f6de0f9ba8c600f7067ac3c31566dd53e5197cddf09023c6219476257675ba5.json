@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 192,
+      "end": 464,
+      "quote": "一、 按 「金融消費者申請評議， 應填具申請書 ，載明當事人名稱及基本資料 、\n請求標的、事實、理由、相關文件或資料及申訴未獲妥適處理之情形。\n金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不\n受理，並以書面通知金融消費者及金融服務業。但其情形可以補正者，\n爭議處理機構應通知金融消費者於合理期限內補正：一、申請不合程\n式。…。」 ，金融消費者保護法第24 條第 1 項及第 2 項第 1 款定有明\n文。準此，向本中心申請評議之案件如有申請不合程式之情形者，經本\n中心通知補正，申請人未於合理期限內補正，本中心應即為不受理之決\n定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 117,
+      "end": 345,
+      "quote": "四、 經查，本件申請人已於提起評議申請後死亡，並經本中心通知應由其全\n體繼承人補正填具評議申請書為承受之聲明，此有本中心於 114 年 1\n月13日與申請人之家屬之通話紀錄在卷可稽；次查，本中心已寄出空\n白評議申請書予申請人之家屬，並於 114 年 1 月 23 日確認由其收受，\n然迄今皆未收到申請人之繼承人之補正資料，後續電話聯繫亦未果，是\n應認本件有未於合理期限內補正應補正事項之情形，依金融消費者保\n護法第24條第2項第1款規定，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "113-5422"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-7f6de0f9ba8c600f7067ac3c31566dd53e5197cddf09023c6219476257675ba5",
+  "pdf_sha256": "7f6de0f9ba8c600f7067ac3c31566dd53e5197cddf09023c6219476257675ba5",
+  "page_count": 2,
+  "analysis_case_number": "113-5422",
+  "analysis_case_numbers": [
+    "113-5422"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

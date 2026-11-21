@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 182,
+      "end": 408,
+      "quote": "一、 按 「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議」 、 「金融消費者申請評議有下列各款情形之一者，爭\n議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。但\n其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內補\n正：…二、非屬金融消費爭議。」金融消費者保護法第5 條及第24條\n第 2 項第 2 款定有明文。準此，倘申請評議之案件非屬金融消費爭議\n者，因其情形無從補正，本中心應即為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 557,
+      "end": 820,
+      "quote": "三、 經查，細繹申請人前揭所陳，核其請求標的無非係請求相對人將業務承\n攬報酬給予新更換服務業務員(即乙○○員)，惟依保險業業務人員酬\n金制度應遵行原則第 4 條之規定，所謂酬金係指因銷售保險商品或服\n務，而由保險業給予業務員之佣金、獎金及其他具有實質獎勵性質之報\n酬，顯屬相對人與業務員間因勞雇、委任或承攬等法律關係所生給付義\n務，且涉及相對人企業經營管理及公司內部作業事項，核其性質與前揭\n規定所稱之金融消費者與金融服務業間因金融商品或服務所生之民事\n爭議有間，是本件評議申請核有金融消費者保護法第 24 條第 2 項第 2",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 37,
+      "quote": "款「非屬金融消費爭議」之情事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-4826"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-3ac073908084c4a7c7101f7e10c752b39a1d4afd6152eba3f5f3fda4d4ef9341",
+  "pdf_sha256": "3ac073908084c4a7c7101f7e10c752b39a1d4afd6152eba3f5f3fda4d4ef9341",
+  "page_count": 2,
+  "analysis_case_number": "114-4826",
+  "analysis_case_numbers": [
+    "114-4826"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

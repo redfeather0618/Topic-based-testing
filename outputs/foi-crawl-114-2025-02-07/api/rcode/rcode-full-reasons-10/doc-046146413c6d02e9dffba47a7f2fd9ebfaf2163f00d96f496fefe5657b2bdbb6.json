@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 197,
+      "end": 332,
+      "quote": "一、 按 「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決定\n不受理，並以書面通知金融消費者及金融服務業。但其情形可以補正\n者，爭議處理機構應通知金融消費者於合理期限內補正：…九、其他主\n管機關規定之情形。」金融消費者保護法第24條第2 項第9 款定有明\n文。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R09"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 192,
+      "end": 328,
+      "quote": "四、 經查，細繹申請人主張，無非係就系爭保單借款債務、利息等主張分期\n還款、免收利息或增加還款期限云云，核屬債務協商之範疇，依首揭金\n融消費者保護法第24條第2項第9款及金融消費爭議處理機構評議委\n員資格條件聘任解任及評議程序辦法第15條第1項第9款之規定，應\n不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R09"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 330,
+      "end": 385,
+      "quote": "五、 綜上所述，本件評議申請因屬債務協商之範圍，核屬金融消費者保護法\n第24條第2項第9款之情形，應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-5117"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-046146413c6d02e9dffba47a7f2fd9ebfaf2163f00d96f496fefe5657b2bdbb6",
+  "pdf_sha256": "046146413c6d02e9dffba47a7f2fd9ebfaf2163f00d96f496fefe5657b2bdbb6",
+  "page_count": 2,
+  "analysis_case_number": "114-5117",
+  "analysis_case_numbers": [
+    "114-5117"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

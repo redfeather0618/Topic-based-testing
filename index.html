@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>金融消費評議資格智慧判定系統 | Ombudsman AI</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container { max-width: 1120px; width: 100%; margin: 0 auto; padding: 0 16px; }
+
+    /* 頂部導航 */
+    .header {
+      background: #0f172a;
+      color: #fff;
+      border-bottom: 1px solid #1e293b;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .header-inner {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; cursor: pointer; }
+    .brand-icon {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      display: flex; align-items: center; justify-content: center; color: #34d399;
+    }
+    .brand-title { font-size: 1.05rem; font-weight: 700; color: #fff; display: block; line-height: 1.2; }
+    .brand-sub { font-size: 0.7rem; color: #94a3b8; letter-spacing: 0.05em; }
+    .nav-links { display: flex; gap: 6px; }
+    .nav-item {
+      background: transparent; border: none; color: #cbd5e1;
+      padding: 8px 16px; border-radius: 8px; font-size: 0.92rem; cursor: pointer; transition: all 0.2s;
+    }
+    .nav-item:hover, .nav-item.active { background: rgba(255, 255, 255, 0.12); color: #fff; font-weight: 600; }
+
+    /* 單頁與卡片佈局 */
+    .page-section { display: none; }
+    .page-section.active { display: block; }
+    .card {
+      background: #fff; border: 1px solid #e2e8f0; border-radius: 16px;
+      padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    /* 首頁 Hero 橫幅 */
+    .hero-banner {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #172554 100%);
+      color: #fff; border-radius: 24px; padding: 48px 40px; margin-bottom: 32px;
+      position: relative; overflow: hidden;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; color: #fde047; margin-bottom: 20px;
+    }
+    .hero-title { font-size: 2rem; font-weight: 800; margin-bottom: 8px; line-height: 1.2; }
+    .hero-highlight {
+      font-size: 2.8rem; font-weight: 900; color: #fb923c; letter-spacing: -0.02em;
+      margin-bottom: 16px; text-shadow: 0 4px 12px rgba(251, 146, 60, 0.3);
+    }
+    .hero-desc { color: #cbd5e1; max-width: 640px; font-size: 1rem; line-height: 1.6; margin-bottom: 28px; }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-hero-primary {
+      background: linear-gradient(90deg, #f97316, #ea580c); color: #fff; border: none;
+      padding: 12px 24px; border-radius: 12px; font-size: 1rem; font-weight: 700;
+      cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
+    }
+
+    /* 格線區塊 */
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    
+    .rule-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; }
+    .rule-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+    .rule-tag { font-size: 0.75rem; font-weight: 700; margin-bottom: 4px; }
+    .rule-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+    .rule-desc { font-size: 0.88rem; color: #64748b; line-height: 1.5; }
+
+    /* 表單步驟與進度 */
+    .wizard-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .step-tag { font-size: 0.75rem; font-weight: 800; color: #2563eb; letter-spacing: 0.05em; }
+    .step-title { font-size: 1.2rem; font-weight: 700; }
+    .progress-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .bar-seg { height: 6px; border-radius: 3px; background: #e2e8f0; transition: background 0.3s; }
+    .bar-seg.active { background: #2563eb; }
+    .bar-seg.done { background: #10b981; }
+
+    /* 表單元件 */
+    .form-group { margin-bottom: 20px; }
+    .form-label { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 8px; color: #334155; }
+    .req { color: #ef4444; margin-left: 2px; }
+    .form-control {
+      width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1;
+      border-radius: 10px; font-size: 0.95rem; background: #fff;
+    }
+    .form-control:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+    .form-tip { font-size: 0.8rem; color: #64748b; margin-top: 6px; }
+    .notice-box {
+      background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px;
+      padding: 14px; color: #1e40af; font-size: 0.85rem; margin-bottom: 20px;
+    }
+    .terms-box {
+      background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+      padding: 14px; margin-top: 8px;
+    }
+
+    .industry-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+    .ind-card {
+      border: 1px solid #cbd5e1; border-radius: 10px; padding: 12px;
+      display: flex; flex-direction: column; align-items: center; gap: 6px; cursor: pointer; font-size: 0.9rem;
+    }
+    .ind-card.active { border-color: #2563eb; background: #eff6ff; color: #1e40af; font-weight: 600; }
+
+    /* 按鈕樣式 */
+    .btn {
+      padding: 10px 22px; border-radius: 10px; font-size: 0.92rem; font-weight: 600;
+      border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: 0.15s;
+    }
+    .btn-primary { background: #2563eb; color: #fff; }
+    .btn-primary:hover { background: #1d4ed8; }
+    .btn-secondary { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+    .btn-secondary:hover { background: #e2e8f0; }
+    .btn-success { background: #059669; color: #fff; }
+    .btn-success:hover { background: #047857; }
+    .btn-accent { background: #ea580c; color: #fff; }
+    .btn-accent:hover { background: #c2410c; }
+
+    /* 結果評估卡片 */
+    .res-banner {
+      background: linear-gradient(135deg, #047857 0%, #059669 100%);
+      color: #fff; border-radius: 20px; padding: 32px;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; margin-bottom: 24px;
+    }
+    .res-badge {
+      display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.2);
+      padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; margin-bottom: 10px;
+    }
+    .res-timebox {
+      background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 16px 24px; border-radius: 14px; text-align: center; min-width: 190px;
+    }
+    .res-days { font-size: 2.2rem; font-weight: 800; line-height: 1.1; margin: 4px 0; }
+
+    .check-item {
+      display: flex; align-items: flex-start; gap: 12px; padding: 14px;
+      background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 12px; font-size: 0.9rem;
+    }
+
+    #toast {
+      position: fixed; top: 20px; right: 20px; background: #0f172a; color: #fff;
+      padding: 12px 18px; border-radius: 10px; display: none; font-size: 0.9rem; z-index: 100;
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2);
+    }
+    .footer {
+      margin-top: auto; border-top: 1px solid #e2e8f0; padding: 24px 0;
+      font-size: 0.8rem; color: #64748b; text-align: center; background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 頂部導航 -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand" onclick="navigateTo('home')">
+        <div class="brand-icon"><i data-lucide="scale"></i></div>
+        <div>
+          <span class="brand-title">金融消費評議判定</span>
+          <span class="brand-sub">OMBUDSMAN ASSISTANT</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <button type="button" class="nav-item active" id="nav-home" onclick="navigateTo('home')">首頁</button>
+        <button type="button" class="nav-item" id="nav-form" onclick="navigateTo('form')">智慧檢測</button>
+      </nav>
+    </div>
+  </header>
+
+  <div id="toast"></div>
+
+  <!-- 主內容區 -->
+  <main class="container" style="padding-top: 32px; padding-bottom: 64px;">
+
+    <!-- ================= 1. 首頁 ================= -->
+    <section id="page-home" class="page-section active">
+      <div class="hero-banner">
+        <div class="hero-badge">
+          <i data-lucide="shield-check" style="width:14px; height:14px;"></i>
+          依據金融消費者保護法第 13 條規定設計
+        </div>
+        <div class="hero-title">金融爭議能申請評議嗎？</div>
+        <div class="hero-highlight">3 分鐘智慧判定法規門檻</div>
+        <div class="hero-desc">
+          在向主管機關「金融消費評議中心」正式申請前，先透過系統檢測您的爭議是否已符合「先行申訴程序」、「30 天等待期」與「60 天法定期限」。
+        </div>
+        <div class="hero-btns">
+          <button type="button" class="btn-hero-primary" onclick="startFreshAssessment()">
+            立即開始檢測 <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 16px;">評議申請三大核心法規門檻</h3>
+        <div class="grid-3">
+          <div class="rule-card">
+            <div class="rule-icon" style="background: #eff6ff; color: #2563eb;"><i data-lucide="mail-warning"></i></div>
+            <div class="rule-tag" style="color: #2563eb;">條件 01</div>
+            <div class="rule-title">必須先向金融機構申訴</div>
+            <div class="rule-desc">評議機制為二次救濟管道，未先向銀行、保險公司或券商送交正式申訴者，依法不受理。</div>
+          </div>
+          <div class="rule-card">
+            <div class="rule-icon" style="background: #ecfdf5; color: #059669;"><i data-lucide="hourglass"></i></div>
+            <div class="rule-tag" style="color: #059669;">條件 02</div>
+            <div class="rule-title">等待逾 30 天或不服結果</div>
+            <div class="rule-desc">業者受理後 30 日內未回覆，或回覆內容消費者無法接受時，方具備進一步評議權益。</div>
+          </div>
+          <div class="rule-card">
+            <div class="rule-icon" style="background: #fffbeb; color: #d97706;"><i data-lucide="clock-alert"></i></div>
+            <div class="rule-tag" style="color: #d97706;">條件 03</div>
+            <div class="rule-title">收到回覆後 60 日內申請</div>
+            <div class="rule-desc">若業者已正式回覆，自收受回覆之翌日起算，必須於法定 60 日內送達申請，逾期失效。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. 表單頁 (共 3 步驟) ================= -->
+    <section id="page-form" class="page-section" style="max-width: 760px; margin: 0 auto;">
+      <div class="card" style="padding: 16px 24px;">
+        <div class="wizard-header">
+          <div>
+            <div class="step-tag" id="stepIndicator">STEP 1 OF 3</div>
+            <div class="step-title" id="stepTitle">爭議對象與機構類型</div>
+          </div>
+          <button type="button" class="btn btn-secondary" onclick="fillDemoData()" style="font-size: 0.8rem; padding: 6px 12px;">
+            <i data-lucide="file-text" style="width: 14px; height: 14px;"></i> 快速體驗 (帶入合規範例)
+          </button>
+        </div>
+        <div class="progress-bar">
+          <div class="bar-seg active" id="prog-1"></div>
+          <div class="bar-seg" id="prog-2"></div>
+          <div class="bar-seg" id="prog-3"></div>
+        </div>
+      </div>
+
+      <form id="intakeForm" class="card" onsubmit="event.preventDefault();">
+        <!-- 步驟 1 -->
+        <div id="step-1">
+          <div class="form-group">
+            <label class="form-label">1. 涉及金融產業類別<span class="req">*</span></label>
+            <div class="industry-options">
+              <label class="ind-card active">
+                <input type="radio" name="industry" value="銀行業" checked style="display:none;" onchange="selectIndustry(this)">
+                <i data-lucide="landmark"></i> 銀行業
+              </label>
+              <label class="ind-card">
+                <input type="radio" name="industry" value="人身保險" style="display:none;" onchange="selectIndustry(this)">
+                <i data-lucide="heart-handshake"></i> 人身保險
+              </label>
+              <label class="ind-card">
+                <input type="radio" name="industry" value="證券期貨" style="display:none;" onchange="selectIndustry(this)">
+                <i data-lucide="candlestick-chart"></i> 證券期貨
+              </label>
+              <label class="ind-card">
+                <input type="radio" name="industry" value="財產保險" style="display:none;" onchange="selectIndustry(this)">
+                <i data-lucide="car"></i> 財產保險
+              </label>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="institutionName" class="form-label">2. 金融機構名稱<span class="req">*</span></label>
+              <input type="text" id="institutionName" name="institutionName" class="form-control" placeholder="例如：玉山商業銀行">
+            </div>
+            <div class="form-group">
+              <label for="issueCategory" class="form-label">3. 爭議類別主軸<span class="req">*</span></label>
+              <select id="issueCategory" name="issueCategory" class="form-control">
+                <option value="信用卡未授權扣款/盜刷">信用卡未授權扣款 / 盜刷</option>
+                <option value="拒絕給付保險金/理賠爭端">拒絕給付保險金 / 理賠爭端</option>
+                <option value="理財商品不當招攬/未告知風險">理財商品不當招攬 / 未告知風險</option>
+                <option value="契約條款解釋歧異">契約條款解釋歧異</option>
+                <option value="系統異常/網路下單延誤">系統異常 / 網路下單延誤</option>
+                <option value="其他業務爭議">其他業務爭議</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 步驟 2 -->
+        <div id="step-2" style="display: none;">
+          <div class="notice-box">
+            <strong>重要法規提示：</strong>依照金保法規定，評議前「必須先行向金融業者提出申訴」，否則評議中心依法予以不受理退件。
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">1. 是否已向該機構提出正式申訴？<span class="req">*</span></label>
+            <div style="display: flex; gap: 20px;">
+              <label style="cursor: pointer;"><input type="radio" name="hasComplained" value="yes" checked onchange="toggleComplainSection(true)"> 是，已提出申訴</label>
+              <label style="cursor: pointer;"><input type="radio" name="hasComplained" value="no" onchange="toggleComplainSection(false)"> 否，尚未申訴</label>
+            </div>
+          </div>
+
+          <div id="complainDatesWrap">
+            <div class="grid-2">
+              <div class="form-group">
+                <label for="complainDate" class="form-label">2. 送出申訴日期<span class="req">*</span></label>
+                <input type="date" id="complainDate" name="complainDate" class="form-control">
+                <div class="form-tip">申訴後需給予業者 30 日合理調查處理期。</div>
+              </div>
+              <div class="form-group">
+                <label for="replyStatus" class="form-label">3. 機構回覆狀態<span class="req">*</span></label>
+                <select id="replyStatus" name="replyStatus" class="form-control" onchange="toggleReplyDate(this.value)">
+                  <option value="replied_rejected">已收到回覆，但無法接受結果</option>
+                  <option value="not_replied">尚未收到任何正式回覆</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" id="replyDateGroup">
+              <label for="replyDate" class="form-label">4. 收到機構正式回覆之日期<span class="req">*</span></label>
+              <input type="date" id="replyDate" name="replyDate" class="form-control" style="max-width: 320px;">
+              <div class="form-tip">自收受回覆翌日起算，60 日內須提出評議申請。</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">5. 本案件是否已向法院提起訴訟並判決確定？<span class="req">*</span></label>
+            <div style="display: flex; gap: 20px;">
+              <label style="cursor: pointer;"><input type="radio" name="courtStatus" value="no" checked> 否（未進入司法判決）</label>
+              <label style="cursor: pointer;"><input type="radio" name="courtStatus" value="yes"> 是（法院判決確定或調解成立）</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 步驟 3 -->
+        <div id="step-3" style="display: none;">
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="incidentDate" class="form-label">1. 爭議事件發生日期<span class="req">*</span></label>
+              <input type="date" id="incidentDate" name="incidentDate" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="claimAmount" class="form-label">2. 爭議請求金額 (NTD)<span class="req">*</span></label>
+              <input type="number" id="claimAmount" name="claimAmount" class="form-control" placeholder="例如：85000">
+              <div class="form-tip">一定額度（銀行、保險各 120 萬元）以內具強制拘束力。</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="incidentDetail" class="form-label">3. 爭議經過事實陳述<span class="req">*</span></label>
+            <textarea id="incidentDetail" name="incidentDetail" rows="4" class="form-control" placeholder="請精簡描述爭議始末（何時被扣款、如何與客服溝通、爭端點等）..."></textarea>
+          </div>
+
+          <div class="terms-box">
+            <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.85rem; color: #475569; cursor: pointer;">
+              <input type="checkbox" id="agreeTerms" checked style="margin-top: 3px;">
+              <span>我了解此工具為評估法規適格性之輔助工具，不代表評議委員會最終決議。</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 導航按鈕 -->
+        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 20px; margin-top: 20px;">
+          <button type="button" id="prevStepBtn" class="btn btn-secondary" onclick="handlePrevClick()" style="display: none;">
+            <i data-lucide="arrow-left"></i> 上一步
+          </button>
+          <div style="margin-left: auto;">
+            <button type="button" id="nextStepBtn" class="btn btn-primary" onclick="handleNextClick()">
+              <span>下一步</span> <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- ================= 3. 結果頁 ================= -->
+    <section id="page-result" class="page-section">
+      <div id="resBanner" class="res-banner">
+        <div>
+          <div class="res-badge" id="resBadge"><i data-lucide="badge-check" style="width:14px; height:14px;"></i> 五碼程序條件檢核</div>
+          <h2 id="resTitle" style="font-size: 1.8rem; font-weight: 800; margin-bottom: 6px;">程序條件檢核結果</h2>
+          <p id="resDesc" style="color: rgba(255,255,255,0.92); font-size: 0.95rem; max-width: 600px;">
+            此結果僅依已提供的案件事實檢查指定程序條件；資料不足或未涵蓋項目仍需補充或人工確認。
+          </p>
+        </div>
+        <div id="resTimeBox" class="res-timebox">
+          <div style="font-size: 0.8rem; opacity: 0.9;" id="resTimeLabel">評議申請時限剩餘</div>
+          <div class="res-days" id="resDays">42 天</div>
+          <div style="font-size: 0.75rem; opacity: 0.85;" id="resDeadline">法定期限截止日：2026/12/17</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <!-- 左：動態檢核清單 -->
+        <div class="card">
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 16px;">五碼程序檢查結果</h3>
+          <div id="screeningResults" aria-live="polite"></div>
+        </div>
+
+        <!-- 右：案件摘要與後續操作 -->
+        <div>
+          <div class="card" style="margin-bottom: 16px;">
+            <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px;">輸入案件摘要</h3>
+            <p style="margin-bottom: 6px; font-size: 0.9rem;"><strong>產業類別：</strong><span id="sumInd">-</span></p>
+            <p style="margin-bottom: 6px; font-size: 0.9rem;"><strong>爭議主體：</strong><span id="sumInst">-</span></p>
+            <p style="margin-bottom: 6px; font-size: 0.9rem;"><strong>爭議類別：</strong><span id="sumCat">-</span></p>
+            <p style="margin-bottom: 6px; font-size: 0.9rem;"><strong>請求金額：</strong><span id="sumAmt">-</span></p>
+            <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 16px 0;">
+            <button type="button" class="btn btn-secondary" onclick="navigateTo('form')" style="width: 100%; justify-content: center;">
+              <i data-lucide="edit"></i> 修改填寫資料重算
+            </button>
+          </div>
+
+          <div class="card">
+            <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px;">下一步行動建議</h3>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <button type="button" id="downloadApplicationBtn" class="btn btn-accent" style="justify-content: center;">
+                <i data-lucide="download"></i> 下載評議申請書
+              </button>
+              <button type="button" class="btn btn-primary" onclick="copyResultReport()" style="justify-content: center;">
+                <i data-lucide="copy"></i> 複製本案分析結論摘要
+              </button>
+              <a href="https://www.foi.org.tw" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="justify-content: center; text-decoration: none;">
+                <i data-lucide="external-link"></i> 前往評議中心官方網站
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      依中華民國《金融消費者保護法》及其施行細則所設計之資格檢核工具
+    </div>
+  </footer>
+
+  <script>
+    let currentStep = 1;
+    let lastScreeningResult = null;
+
+    // 1. 頁面切換
+    function navigateTo(pageId) {
+      document.querySelectorAll('.page-section').forEach(sec => sec.classList.remove('active'));
+      document.querySelectorAll('.nav-item').forEach(btn => btn.classList.remove('active'));
+      
+      const targetSec = document.getElementById(`page-${pageId}`);
+      if (targetSec) targetSec.classList.add('active');
+
+      // 導航列高亮對應：首頁對應 nav-home，表單與結果頁統一對應 nav-form (智慧檢測)
+      const navKey = (pageId === 'home') ? 'home' : 'form';
+      const targetNav = document.getElementById(`nav-${navKey}`);
+      if (targetNav) targetNav.classList.add('active');
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // 2. 更新表單步驟畫面
+    function renderStepUI() {
+      for (let i = 1; i <= 3; i++) {
+        const stepEl = document.getElementById(`step-${i}`);
+        const segEl = document.getElementById(`prog-${i}`);
+        if (stepEl) stepEl.style.display = (i === currentStep) ? 'block' : 'none';
+        if (segEl) {
+          if (i === currentStep) segEl.className = 'bar-seg active';
+          else if (i < currentStep) segEl.className = 'bar-seg done';
+          else segEl.className = 'bar-seg';
+        }
+      }
+
+      const titles = [
+        "爭議對象與機構類型",
+        "法定申訴程序檢核 (核心門檻)",
+        "爭議事實經過與訴求金額"
+      ];
+      document.getElementById('stepIndicator').innerText = `STEP ${currentStep} OF 3`;
+      document.getElementById('stepTitle').innerText = titles[currentStep - 1];
+
+      document.getElementById('prevStepBtn').style.display = (currentStep === 1) ? 'none' : 'inline-flex';
+      
+      const nextBtn = document.getElementById('nextStepBtn');
+      if (currentStep === 3) {
+        nextBtn.innerHTML = `<span>開始智能判定</span> <i data-lucide="check-circle"></i>`;
+        nextBtn.className = 'btn btn-success';
+      } else {
+        nextBtn.innerHTML = `<span>下一步</span> <i data-lucide="arrow-right"></i>`;
+        nextBtn.className = 'btn btn-primary';
+      }
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // 3. 統一的「上一步」處理
+    function handlePrevClick() {
+      if (currentStep > 1) {
+        currentStep--;
+        renderStepUI();
+      }
+    }
+
+    // 4. 統一的「下一步 / 送出」處理
+    async function handleNextClick() {
+      if (currentStep === 1) {
+        if (!document.getElementById('institutionName').value.trim()) {
+          showToast('請填寫受爭議之金融機構全名');
+          return;
+        }
+        currentStep = 2;
+        renderStepUI();
+        return;
+      }
+
+      if (currentStep === 2) {
+        const hasComplain = document.querySelector('input[name="hasComplained"]:checked').value === 'yes';
+        if (hasComplain) {
+          const compDate = document.getElementById('complainDate').value;
+          if (!compDate) {
+            showToast('請選擇向機構提出申訴之日期');
+            return;
+          }
+          const replyStatus = document.getElementById('replyStatus').value;
+          const repDate = document.getElementById('replyDate').value;
+          if (replyStatus === 'replied_rejected') {
+            if (!repDate) {
+              showToast('請填寫收到機構正式回覆之日期');
+              return;
+            }
+            if (new Date(repDate) < new Date(compDate)) {
+              showToast('收到回覆日期不可早於提出申訴日期');
+              return;
+            }
+          }
+        }
+        currentStep = 3;
+        renderStepUI();
+        return;
+      }
+
+      if (currentStep === 3) {
+        const amt = Number(document.getElementById('claimAmount').value);
+        if (!amt || amt <= 0) {
+          showToast('請填寫有效的請求金額');
+          return;
+        }
+        if (!document.getElementById('incidentDetail').value.trim()) {
+          showToast('請簡述爭議事實經過');
+          return;
+        }
+        if (!document.getElementById('agreeTerms').checked) {
+          showToast('請先勾選確認輔助工具說明');
+          return;
+        }
+
+        const submitButton = document.getElementById('nextStepBtn');
+        submitButton.disabled = true;
+        try {
+          await executeAssessment();
+          navigateTo('result');
+        } catch (err) {
+          console.error('Assessment error:', err);
+          showToast(`判定失敗：${err.message || '請稍後重試'}`);
+        } finally {
+          submitButton.disabled = false;
+        }
+      }
+    }
+
+    function toggleComplainSection(isComplained) {
+      document.getElementById('complainDatesWrap').style.display = isComplained ? 'block' : 'none';
+    }
+
+    function toggleReplyDate(status) {
+      document.getElementById('replyDateGroup').style.display = status === 'replied_rejected' ? 'block' : 'none';
+    }
+
+    function selectIndustry(radio) {
+      document.querySelectorAll('.ind-card').forEach(c => c.classList.remove('active'));
+      radio.closest('.ind-card').classList.add('active');
+    }
+
+    function fillDemoData() {
+      const today = new Date();
+      const d35 = new Date(today); d35.setDate(today.getDate() - 35);
+      const d15 = new Date(today); d15.setDate(today.getDate() - 15);
+      const toISO = (d) => d.toISOString().split('T')[0];
+
+      document.getElementById('institutionName').value = '玉山商業銀行';
+      document.getElementById('issueCategory').value = '信用卡未授權扣款/盜刷';
+      document.querySelector('input[name="hasComplained"][value="yes"]').checked = true;
+      toggleComplainSection(true);
+      document.getElementById('complainDate').value = toISO(d35);
+      document.getElementById('replyStatus').value = 'replied_rejected';
+      toggleReplyDate('replied_rejected');
+      document.getElementById('replyDate').value = toISO(d15);
+      document.querySelector('input[name="courtStatus"][value="no"]').checked = true;
+      document.getElementById('incidentDate').value = toISO(d35);
+      document.getElementById('claimAmount').value = 85000;
+      document.getElementById('incidentDetail').value = '接獲多筆未授權之境外網站扣款，立即進線客服要求列爭議款遭拒，銀行回函認定應由持卡人全額負擔。';
+      document.getElementById('agreeTerms').checked = true;
+      showToast('已填入符合法規門檻之測試範例');
+    }
+
+    function startFreshAssessment() {
+      currentStep = 1;
+      document.getElementById('intakeForm').reset();
+      selectIndustry(document.querySelector('input[name="industry"][value="銀行業"]'));
+      toggleComplainSection(true);
+      toggleReplyDate('replied_rejected');
+      renderStepUI();
+      navigateTo('form');
+    }
+
+    // 核心法規判定邏輯引擎
+    function collectFormData() {
+      return {
+        industry: document.querySelector('input[name="industry"]:checked').value,
+        institutionName: document.getElementById('institutionName').value.trim(),
+        issueCategory: document.getElementById('issueCategory').value,
+        hasComplained: document.querySelector('input[name="hasComplained"]:checked').value === 'yes',
+        complainDate: document.getElementById('complainDate').value,
+        replyStatus: document.getElementById('replyStatus').value,
+        replyDate: document.getElementById('replyDate').value,
+        courtDetermined: document.querySelector('input[name="courtStatus"]:checked').value === 'yes',
+        incidentDate: document.getElementById('incidentDate').value,
+        claimAmount: Number(document.getElementById('claimAmount').value || 0),
+        incidentDetail: document.getElementById('incidentDetail').value.trim()
+      };
+    }
+
+    function localDateISO(value) {
+      const year = value.getFullYear();
+      const month = String(value.getMonth() + 1).padStart(2, '0');
+      const day = String(value.getDate()).padStart(2, '0');
+      return `${year}-${month}-${day}`;
+    }
+
+    async function executeAssessment() {
+      const formData = collectFormData();
+      const hasComplaint = formData.hasComplained;
+      const isReplied = formData.replyStatus === 'replied_rejected';
+      const payload = {
+        application_date: localDateISO(new Date()),
+        has_complained: hasComplaint,
+        complaint_date: hasComplaint ? (formData.complainDate || null) : null,
+        // 現有表單沒有「業者實際收受申訴日」，未知保持 null，不以提出日代替。
+        complaint_received_date: null,
+        business_replied: hasComplaint ? isReplied : null,
+        business_reply_date: null,
+        reply_received_date: hasComplaint && isReplied ? (formData.replyDate || null) : null,
+        center_received_date: null,
+        // 現有表單未詢問前次評議與其他處理程序，交由引擎回報資料不足。
+        prior_evaluation: null,
+        proceedings: null
+      };
+
+      const response = await fetch('/api/v1/screening', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const body = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        const detail = Array.isArray(body.detail)
+          ? body.detail.map(item => item.msg).join('；')
+          : (body.detail || body.error?.message || `HTTP ${response.status}`);
+        throw new Error(detail);
+      }
+
+      lastScreeningResult = body;
+      document.getElementById('sumInd').innerText = formData.industry;
+      document.getElementById('sumInst').innerText = formData.institutionName;
+      document.getElementById('sumCat').innerText = formData.issueCategory;
+      document.getElementById('sumAmt').innerText = 'NT$ ' + formData.claimAmount.toLocaleString();
+      renderResultView(body);
+    }
+
+    function renderResultView(res) {
+      const results = document.getElementById('screeningResults');
+      results.replaceChildren();
+      let blocked = 0;
+      let needsInput = 0;
+
+      res.results.forEach(result => {
+        const item = document.createElement('div');
+        item.className = 'check-item';
+        item.style.alignItems = 'flex-start';
+        item.style.marginBottom = '14px';
+
+        const icon = document.createElement('i');
+        const isBlocked = result.verdict === '有障礙';
+        const isClear = result.verdict === '無此障礙';
+        if (isBlocked) blocked++;
+        if (!isBlocked && !isClear) needsInput++;
+        icon.setAttribute('data-lucide', isBlocked ? 'circle-x' : (isClear ? 'circle-check' : 'circle-help'));
+        icon.style.cssText = `color:${isBlocked ? '#dc2626' : (isClear ? '#059669' : '#d97706')}; width:20px; height:20px; flex-shrink:0; margin-top:2px;`;
+
+        const content = document.createElement('div');
+        const title = document.createElement('strong');
+        title.textContent = `${result.code} ${result.name}：${result.verdict}`;
+        const reason = document.createElement('div');
+        reason.style.cssText = 'color:#64748b; font-size:0.82rem; margin-top:4px;';
+        reason.textContent = result.reason;
+        content.append(title, reason);
+        if (result.remedy) {
+          const remedy = document.createElement('div');
+          remedy.style.cssText = 'color:#475569; font-size:0.82rem; margin-top:4px;';
+          remedy.textContent = `補充說明：${result.remedy}`;
+          content.append(remedy);
+        }
+        if (result.self_declared) {
+          const warning = document.createElement('div');
+          warning.style.cssText = 'color:#b45309; font-size:0.78rem; margin-top:4px;';
+          warning.textContent = '此項依使用者填答，系統無法自行查證。';
+          content.append(warning);
+        }
+        item.append(icon, content);
+        results.append(item);
+      });
+
+      document.getElementById('resTitle').innerText = blocked
+        ? `檢核發現 ${blocked} 項需留意的程序條件`
+        : (needsInput ? '部分條件需要補充資料或人工確認' : '五碼程序條件檢核完成');
+      document.getElementById('resDesc').innerText =
+        `${res.notice} 本次表單未提供前次評議結果、其他處理程序及業者實際收受申訴日期等資料；相關規則會標示資料不足。`;
+      document.getElementById('resTimeBox').style.display = 'none';
+      document.getElementById('resBanner').style.background = blocked
+        ? 'linear-gradient(135deg, #b91c1c 0%, #dc2626 100%)'
+        : (needsInput ? 'linear-gradient(135deg, #b45309 0%, #d97706 100%)' : 'linear-gradient(135deg, #047857 0%, #059669 100%)');
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function copyResultReport() {
+      const inst = document.getElementById('sumInst').innerText;
+      const cat = document.getElementById('sumCat').innerText;
+      const amt = document.getElementById('sumAmt').innerText;
+      const title = document.getElementById('resTitle').innerText;
+      const desc = document.getElementById('resDesc').innerText;
+      const ruleLines = (lastScreeningResult?.results || []).map(item =>
+        `${item.code} ${item.name}：${item.verdict}\n${item.reason}${item.remedy ? `\n補救：${item.remedy}` : ''}`
+      ).join('\n');
+      const text = `【金融消費評議五碼檢核摘要】\n對象：${inst}\n類別：${cat}\n請求金額：${amt}\n檢核總結：${title}\n${ruleLines}\n說明：${desc}`;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('已複製分析結論至剪貼簿！');
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.innerText = msg;
+      t.style.display = 'block';
+      setTimeout(() => { t.style.display = 'none'; }, 3000);
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) lucide.createIcons();
+      renderStepUI();
+    });
+  </script>
+</body>
+</html>

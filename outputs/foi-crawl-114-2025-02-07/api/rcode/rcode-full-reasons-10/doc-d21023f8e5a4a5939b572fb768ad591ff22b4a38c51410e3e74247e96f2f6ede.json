@@ -1,0 +1,72 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02",
+    "R09"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 186,
+      "end": 574,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、 「金融消費者申請評議有下列各款情形之一者，\n爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。\n但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內\n補正：…二、非屬金融消費爭議。…九、其他主管機關規定之情形。」\n金融消費者保護法第5 條、第24 條第2 項第2款及第9 款分別定有明\n文。又「金融消費者申請評議有下列各款情形之一者，爭議處理機構應\n決定不受理：…九、申請評議事件純屬債務協商、投資表現、信用評等\n或定價政策之範圍者。」 金融消費爭議處理機構評議委員資格條件聘任\n解任及評議程序辦法第15條第1 項第9 款已有明定。準此，向本中心\n申請評議之案件如有非屬金融消費爭議或純屬投資表現範圍 者，因其\n情形無法補正，本中心應即為不受理決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 835,
+      "end": 838,
+      "quote": "然，內",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 13,
+      "end": 155,
+      "quote": "控如何執行、系爭基金之投資策略及對受託管理機構如何監督，實涉相\n對人之經營策略、管理措施、企業文化及內部檢討等行政事項，核其性\n質與前揭規定所稱金融消費者與金融服務業間因金融商品或服務所生\n民事爭議有間，從而，依金融消費者保護法第5 條、第24 條第2項第\n2 款規定，即應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 288,
+      "end": 364,
+      "quote": "五、 據上論結，本件評議申請，存有非屬金融消費爭議及純屬投資表現範圍\n情形，依前揭金融消費者保護法第24條第2 項第2 款及第9 款規定，\n應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02",
+        "R09"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-1999"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-d21023f8e5a4a5939b572fb768ad591ff22b4a38c51410e3e74247e96f2f6ede",
+  "pdf_sha256": "d21023f8e5a4a5939b572fb768ad591ff22b4a38c51410e3e74247e96f2f6ede",
+  "page_count": 2,
+  "analysis_case_number": "114-1999",
+  "analysis_case_numbers": [
+    "114-1999"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

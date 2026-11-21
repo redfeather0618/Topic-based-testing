@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 190,
+      "end": 419,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、 「金融消費者申請評議有下列各款情形之一者，\n爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務業。\n但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限內\n補正：…二、非屬金融消費爭議。…。」金融消費者保護法第5條及第\n24 條第 2 項第 2 款分別定有明文。據此，向本中心申請評議之案件如\n非屬金融消費爭議，本中心應即為不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 172,
+      "end": 628,
+      "quote": "…」，可知系爭保\n單係因相對人接獲○○○地方法院之執行命令而辦理終止，此觀申請\n人評議申請書內容亦可得知，其目的應係在禁止申請人收取相對人於\n終止或解除保險契約後之保單價值準備金（解約金）債權、保險事故發\n生後之保險金債權或為其他處分；又細繹申請人前揭所陳，即就系爭保\n單因法院進行強制執行程序而解約，相對人未盡告知義務造成損失等，\n然相對人將系爭保單解約乃係因申請人與債權人間之債權債務關係，\n法院因債權人之申請進行強制執行程序，而以執行命令將系爭保單解\n約，而非基於申請人行使系爭保單條款所約定之解約權利將其解約或\n因其他條款所約定之解約事由而解約等，是申請人所陳無非係針對第\n三人行使權利對象、取得執行名義及強制執行程序有所爭執，然第三人\n向法院聲請禁止申請人收取對相對人之債權或其他處分，係依強制執\n行法有關規定所為保全、滿足其債權之手段，因此執行行為所衍生之民\n事糾紛，核非金融消費者保護法第 5 條規定所指因商品或服務所生之\n民事爭議，依金融消費者保護法第24條第2項第2款規定，本中心應\n不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-413"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-0585724ae37c1e1e7c12a14e557e7b32668e0f632ea2928a8f3890bc33bc9f5d",
+  "pdf_sha256": "0585724ae37c1e1e7c12a14e557e7b32668e0f632ea2928a8f3890bc33bc9f5d",
+  "page_count": 2,
+  "analysis_case_number": "114-413",
+  "analysis_case_numbers": [
+    "114-413"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

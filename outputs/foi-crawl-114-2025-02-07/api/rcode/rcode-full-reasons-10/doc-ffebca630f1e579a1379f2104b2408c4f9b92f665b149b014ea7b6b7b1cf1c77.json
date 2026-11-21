@@ -1,0 +1,49 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 199,
+      "end": 465,
+      "quote": "一、 按「金融消費者申請評議，應填具申請書，載明當事人名稱及基本資料、\n請求標的、事實、理由、相關文件或資料及申訴未獲妥適處理之情形。金\n融消費者申請評議有下列各款情形之一者，爭議處理機構應決定不受理，\n並以書面通知金融消費者及金融服務業。但其情形可以補正者，爭議處理\n機構應通知金融消費者於合理期限內補正：一、申請不合程式。…」 ，金\n融消費者保護法第24條第1項及第2 項第1 款定有明文。準此，向本中\n心申請評議之案件如有申請不合程式之情形者，經本中心通知補正，申請\n人未於合理期限內補正，本中心應即為不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01"
+      ]
+    },
+    {
+      "page": 1,
+      "start": 467,
+      "end": 791,
+      "quote": "二、 本件申請人於民國（下同）114 年6 月2 日提出評議申請（本中心於同日\n收文），然並未提出經申請人簽名或蓋章之評議申請書及身分證正反面影\n本，本中心遂於114 年 6 月 16 日以○○○字第○○○260 號書函通知申\n請人於書函送達次日起10個工作日內，補正經申請人簽名或蓋章之評議\n申請書及身分證正反面影本，並提出與本件爭議相關之證據資料，該函文\n已送達申請人，此有中華郵政掛號郵件投遞結果查詢單在卷可佐，本中心\n亦於 114 年 7 月 2 日致電申請人評議申請書所留之電話號碼聯繫補正事\n項，惟申請人迄今仍未補正，稽諸卷附申請人所提資料，本件申請核有金\n融消費者保護法第24條第2項第1款「申請不合程式」之情事，本中心\n應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-2727"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-ffebca630f1e579a1379f2104b2408c4f9b92f665b149b014ea7b6b7b1cf1c77",
+  "pdf_sha256": "ffebca630f1e579a1379f2104b2408c4f9b92f665b149b014ea7b6b7b1cf1c77",
+  "page_count": 2,
+  "analysis_case_number": "114-2727",
+  "analysis_case_numbers": [
+    "114-2727"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

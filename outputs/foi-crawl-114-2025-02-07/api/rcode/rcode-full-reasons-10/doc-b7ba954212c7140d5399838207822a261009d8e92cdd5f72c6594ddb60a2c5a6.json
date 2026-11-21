@@ -1,0 +1,52 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R01",
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 199,
+      "end": 547,
+      "quote": "一、 按「本法所稱金融消費爭議，指金融消費者與金融服務業間因商品或服\n務所生之民事爭議。」 、「金融消費者申請評議，應填具申請書，載明當\n事人名稱及基本資料、請求標的、事實、理由、相關文件或資料及申訴\n未獲妥適處理之情形。」 、 「金融消費者申請評議有下列各款情形之一\n者，爭議處理機構應決定不受理，並以書面通知金融消費者及金融服務\n業。但其情形可以補正者，爭議處理機構應通知金融消費者於合理期限\n內補正：一、申請不合程式。二、非屬金融消費爭議。」金融消費者保\n護法第 5 條、第 24條第 1 項、第2 項第1 款、第 2 款分別定有明文。\n準此，向本中心申請評議之案件如有申請不合程式之情形者，其情形可\n補正，經本中心通知申請人於合理期限內補正而未補正，本中心應即為\n不受理之決定，合先敘明。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "page": 3,
+      "start": 259,
+      "end": 323,
+      "quote": "準此，本件評議申請核有金融消費者保護法第24條第2 項第1 款\n申請不合程式、第2 款非屬金融消費爭議之情事，本中心應不予受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R01",
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-913"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-b7ba954212c7140d5399838207822a261009d8e92cdd5f72c6594ddb60a2c5a6",
+  "pdf_sha256": "b7ba954212c7140d5399838207822a261009d8e92cdd5f72c6594ddb60a2c5a6",
+  "page_count": 3,
+  "analysis_case_number": "114-913",
+  "analysis_case_numbers": [
+    "114-913"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}

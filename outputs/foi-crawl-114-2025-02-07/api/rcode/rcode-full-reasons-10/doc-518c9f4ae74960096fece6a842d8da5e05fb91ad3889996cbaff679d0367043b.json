@@ -1,0 +1,59 @@
+{
+  "version": "rcode-full-reasons-10",
+  "scope": "document_only",
+  "status": "classified",
+  "r_codes": [
+    "R02"
+  ],
+  "uncertain_codes": [],
+  "review_reasons": [],
+  "evidence": [
+    {
+      "page": 1,
+      "start": 191,
+      "end": 441,
+      "quote": "一、 按「金融消費者申請評議有下列各款情形之一者，爭議處理機構應決\n定不受理，並以書面通知金融消費者及金融服務業。但其情形可以補\n正者，爭議處理機構應通知金融消費者於合理期限內補正：…二、非\n屬金融消費爭議。」金融消費者保護法（下稱金保法）第24條第2項\n第2 款定有明文。又依金保法第5條規定： 「本法所稱金融消費爭議，\n指金融消費者與金融服務業間因商品或服務所生之民事爭議 。 」 ， 準此，\n如向本中心申請評議之案件有上開非屬金融消費爭議之情事者，因其\n情形無從補正，本中心應即為不受理之決定。",
+      "role": "first_paragraph",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 311,
+      "end": 522,
+      "quote": "」要保人地位之變更，即涉及保單價值準備金等實質權利之概\n括移轉，而該當強制執行法第115 條第1 項規定之 「處分」 ，由此可知，\n本件爭議涉及相對人依上開執行命令及強制執行法之相關規定所為處\n置，核屬相對人履行法院執行命令所生之爭議，而強制執行行為所衍\n生之民事糾紛，核非金保法第5 條所稱之金融消費者與金融服務業因\n商品或服務所生之民事爭議，依同法第24條第2項第2款之規定，就\n申請人之評議申請，本中心依法應不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    },
+    {
+      "page": 2,
+      "start": 524,
+      "end": 580,
+      "quote": "四、 綜上所述，本件申請非屬金融消費爭議，核屬金保法第24 條第2項第\n2 款所定之情形，本中心依法應予不受理。",
+      "role": "case_conclusion",
+      "r_codes": [
+        "R02"
+      ]
+    }
+  ],
+  "human_review_status": "not_performed",
+  "effective_case_mapping": false,
+  "model_used": false,
+  "case_numbers": [
+    "114-5617"
+  ],
+  "classification_input": "entire_reasons_section",
+  "section_version": "sections-v2",
+  "document_id": "doc-518c9f4ae74960096fece6a842d8da5e05fb91ad3889996cbaff679d0367043b",
+  "pdf_sha256": "518c9f4ae74960096fece6a842d8da5e05fb91ad3889996cbaff679d0367043b",
+  "page_count": 2,
+  "analysis_case_number": "114-5617",
+  "analysis_case_numbers": [
+    "114-5617"
+  ],
+  "analysis_case_number_source": "pdf_header",
+  "identity_policy": "pdf-header-primary-v1"
+}
